@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="Windows\DictionariesHandling\PageViewListOfOffice.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Calendar\WindowCalendarDayEdition.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Calendar\WindowDoctorTerms.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\DictionariesHandling\WindowOfficeDataEdition.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Calendar\WindowOverlapping.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Calendar\WindowOverlappingChangeOffice.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\DictionariesHandling\WindowUserList.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowAdministrator.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Calendar\PageCalendar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\DictionariesHandling\WindowDoctorDataEdition.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\DictionariesHandling\WindowEmployeeDataEdition.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Doctor\WindowDoctor.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Doctor\WindowDoctorEditCalendar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Doctor\WindowDoctorEditCalendarAdd.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Doctor\WindowDoctorNewCalendar.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Login\PageLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Login\WindowForgotPassword.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Login\WindowChangePassword.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Login\WindowInputCode.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="WindowLogin.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\DictionariesHandling\WindowUserDataEdition.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="Windows\DictionariesHandling\PageViewListOfOffice.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Calendar\WindowCalendarDayEdition.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Calendar\WindowDoctorTerms.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\DictionariesHandling\WindowOfficeDataEdition.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Calendar\WindowOverlapping.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Calendar\WindowOverlappingChangeOffice.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\DictionariesHandling\WindowUserList.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowAdministrator.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Calendar\PageCalendar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\DictionariesHandling\WindowDoctorDataEdition.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\DictionariesHandling\WindowEmployeeDataEdition.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Doctor\WindowDoctor.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Doctor\WindowDoctorEditCalendar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Doctor\WindowDoctorEditCalendarAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Doctor\WindowDoctorNewCalendar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Login\PageLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Login\WindowForgotPassword.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Login\WindowChangePassword.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Login\WindowInputCode.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="WindowLogin.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\DictionariesHandling\WindowUserDataEdition.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

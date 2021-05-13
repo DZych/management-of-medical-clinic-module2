@@ -1,0 +1,102 @@
+﻿<Page x:Class="Przychodnia.Windows.Doctor.WindowDoctorEditCalendar"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Background="CadetBlue"
+        mc:Ignorable="d"
+        d:DesignWidth="1280"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        RenderOptions.BitmapScalingMode ="HighQuality"
+        UseLayoutRounding="True"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+        Height="819">
+
+    <Grid HorizontalAlignment="Center" VerticalAlignment="Stretch">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+
+        <!--Edit Calendar-->
+        <StackPanel Grid.Column="0" Grid.Row="0" Width="300" Margin="0,0,5,0" HorizontalAlignment="Right" Background="{DynamicResource MaterialDesignPaper}" >
+            <materialDesign:ColorZone Mode="PrimaryMid" Effect="{DynamicResource MaterialDesignShadowDepth2}" Height="75">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="My Calendar" FontSize="30" Foreground="GhostWhite" />
+            </materialDesign:ColorZone>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+
+                </Grid.RowDefinitions>
+
+                <!--Current month-->
+                <DataGrid Name="CurrentMonthDataGrid" Grid.Column="0" Grid.Row="0" Height="600" Width="300"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+                    <DataGrid.Columns >
+                        <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding date}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Day" Binding="{Binding dayOfWeek}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Start" Binding="{Binding start}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="End" Binding="{Binding end}" IsReadOnly="True"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <Button Grid.Column="0"  Grid.Row="1"  Width="200" Content="Add a new day" FontSize="16" Foreground="GhostWhite" Margin="10" Cursor="Hand" Click="ButtonAdd_Click"/>
+            </Grid>
+
+        </StackPanel>
+
+        <!--Details-->
+        <StackPanel Grid.Column="1" Grid.Row="0"  Width="400" Margin="5,0,0,0" HorizontalAlignment="Left" Background="{DynamicResource MaterialDesignPaper}" >
+            <materialDesign:ColorZone Mode="PrimaryMid" Effect="{DynamicResource MaterialDesignShadowDepth2}" Height="75">
+                <TextBlock Margin="16" Text="Details" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25" Foreground="GhostWhite"/>
+            </materialDesign:ColorZone>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!--firs row-->
+                <CheckBox Name="workingDay" Grid.ColumnSpan="2" Grid.Row="0" Margin="15" FontSize="16" Content="Working day" Click="CheckBoxWorkingDay_Click" />
+
+                <!--second row-->
+                <ComboBox Name="workingDayFrom" IsEnabled="False" Grid.Column="0" Grid.Row="1" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="From" Visibility="Visible" Style="{StaticResource MaterialDesignFilledComboBox}"/>
+                <ComboBox Name="workingDayTo"  Grid.Column="1" Grid.Row="1" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="To" Visibility="Visible" Style="{StaticResource MaterialDesignFilledComboBox}"/>
+
+                <!-- third row-->
+                <CheckBox Name="checkBoxChangeDay" Grid.ColumnSpan="2" Grid.Row="2" Margin="15" Content="Change day" FontSize="16" Click="CheckBoxChangeDay_Click"/>
+
+                <!--fourth row-->
+                <ComboBox Name="availableDates" IsEnabled="False" Grid.ColumnSpan="2" Grid.Row="3" Height="50" Width="340"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="Available dates" Style="{StaticResource MaterialDesignFilledComboBox}"/>
+
+                <!--fifth row-->
+                <CheckBox Grid.ColumnSpan="2" Grid.Row="4" Margin="15" Content="Lock date" FontSize="16"/>
+            </Grid>
+        </StackPanel>
+
+        <!--Accept button-->
+        <StackPanel Grid.ColumnSpan="2" Grid.Row="1"  Width="710" Height="80"  HorizontalAlignment="Center" VerticalAlignment="Center" Background="{DynamicResource MaterialDesignPaper}" Margin="0,5,0,0" >
+            <Button Width="300" Height="50" Margin="15" Content="Accept changes" FontSize ="16" Foreground="GhostWhite" Cursor="Hand" />
+        </StackPanel>
+    </Grid>
+</Page>

@@ -1,0 +1,118 @@
+﻿<Page x:Class="Przychodnia.Windows.Doctor.WindowDoctorNewCalendar"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        Background="CadetBlue"
+        mc:Ignorable="d"
+        d:DesignWidth="1280"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        TextElement.Foreground="{DynamicResource MaterialDesignBody}"
+        
+        TextElement.FontWeight="Medium"
+        TextElement.FontSize="14"
+        RenderOptions.BitmapScalingMode ="HighQuality"
+        UseLayoutRounding="True"
+        FontFamily="{materialDesign:MaterialDesignFont}"
+        Height="819">
+    
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="1*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="8*"/>
+            <RowDefinition Height="1*"/>
+        </Grid.RowDefinitions>
+        
+        <!--My Calendar-->
+        <StackPanel Grid.Column="0" Grid.Row="0" Width="600" Margin="0,0,5,0" HorizontalAlignment="Right" Background="{DynamicResource MaterialDesignPaper}" >
+            <materialDesign:ColorZone Mode="PrimaryMid" Effect="{DynamicResource MaterialDesignShadowDepth2}" Height="75">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="New Calendar" FontSize="30" Foreground="GhostWhite" />
+            </materialDesign:ColorZone>
+            
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+                
+                <!--first row-->
+                <TextBlock Grid.Column="0" Margin="0,20,10,0" VerticalAlignment="Center" HorizontalAlignment="Right" Text="Pick calendar:" />
+                <ComboBox Grid.Column="1" Height="50" Width="200" Margin="10,20,0,2" HorizontalAlignment="Left" materialDesign:HintAssist.Hint="Date" Style="{StaticResource MaterialDesignFilledComboBox}"/>
+
+                <!--second row-->
+                <Label Grid.ColumnSpan="2" Grid.Row="1" Margin="10" BorderThickness="1" BorderBrush="LightGray" Width="500" Height="1"/>
+
+                <!--third row-->
+                <TextBlock Grid.Column="0" Grid.Row="2" Margin="8" Text="Previous month" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" Opacity="0.5" />
+                <TextBlock Grid.Column="1" Grid.Row="2" Margin="8" Text="Current month" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="16" />
+
+                <!--fourth row-->
+                
+                <!--Previous month-->
+                <DataGrid  Name="PreviousMonthDataGrid" Grid.Column="0" Grid.Row="3" Height="450" Width="300"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Opacity="0.525">
+                    <DataGrid.Columns >
+                        <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding date}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Day" Binding="{Binding dayOfWeek}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Start" Binding="{Binding start}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="End" Binding="{Binding end}" IsReadOnly="True"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+                
+                <!--Current month-->
+                <DataGrid Name="CurrentMonthDataGrid" Grid.Column="1" Grid.Row="3" Height="450" Width="300"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+                    <DataGrid.Columns >
+                        <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding date}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Day" Binding="{Binding dayOfWeek}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Start" Binding="{Binding start}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="End" Binding="{Binding end}" IsReadOnly="True"/>
+                    </DataGrid.Columns>
+                </DataGrid>
+
+                <!--fifth row-->
+                <Button Grid.ColumnSpan="2" Grid.Row="4"  Width="300" Content="Copy previous month" FontSize="16" Foreground="GhostWhite" Margin="20" Cursor="Hand" />
+                
+            </Grid>
+
+        </StackPanel>
+        
+        <!--Details-->
+        <StackPanel Grid.Column="1" Grid.Row="0"  Width="400" Margin="5,0,0,0" HorizontalAlignment="Left" Background="{DynamicResource MaterialDesignPaper}" >
+            <materialDesign:ColorZone Mode="PrimaryMid" Effect="{DynamicResource MaterialDesignShadowDepth2}" Height="75">
+                <TextBlock Margin="16" Text="Details" VerticalAlignment="Center" HorizontalAlignment="Center" FontSize="25" Foreground="GhostWhite"/>
+            </materialDesign:ColorZone>
+
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*" />
+                    <ColumnDefinition Width="*" />
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <!--firs row-->
+                <CheckBox Name="workingDay" Grid.ColumnSpan="2" Grid.Row="0" Margin="15" FontSize="16" Content="Working day" Click="CheckBoxWorkingDay_Click"/>
+
+                <!--fourth row-->
+                <ComboBox Name="workingDayFrom" IsEnabled="False" Grid.Column="0" Grid.Row="2" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="From" Style="{StaticResource MaterialDesignFilledComboBox}"/>
+                <ComboBox Name="workingDayTo" IsEnabled="False" Grid.Column="1" Grid.Row="2" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="To" Style="{StaticResource MaterialDesignFilledComboBox}"/>
+            </Grid>
+        </StackPanel>
+        
+        <!--Accept button-->
+        <StackPanel Grid.ColumnSpan="2" Grid.Row="1"  Width="1010" Height="80" Margin="0,5,200,0" HorizontalAlignment="Center" Background="{DynamicResource MaterialDesignPaper}" >
+            <Button  Width="300" Height="50" Margin="15" Content="Accept calendar" FontSize ="16" Foreground="GhostWhite" Cursor="Hand" />
+        </StackPanel>
+    </Grid>
+</Page>

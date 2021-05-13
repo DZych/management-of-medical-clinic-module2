@@ -1,0 +1,971 @@
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Window_NiePamietamHasla.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Window_ZmianaHasla.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Window_NiePamietamHasla.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Window_ZmianaHasla.baml
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_NiePamietamHasla.g.cs
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHasla.g.cs
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_NiePamietamHasla.baml
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHasla.baml
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHaslaKod.g.cs
+C:\Users\Acer\Desktop\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHaslaKod.baml
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_NiePamietamHasla.g.cs
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHasla.g.cs
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHaslaKod.g.cs
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_NiePamietamHasla.baml
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHasla.baml
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHaslaKod.baml
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_NiePamietamHasla.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHasla.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHaslaKod.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_NiePamietamHasla.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHasla.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHaslaKod.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Przychodnia\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Source\Repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_NiePamietamHasla.g.cs
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHasla.g.cs
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHaslaKod.g.cs
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_NiePamietamHasla.baml
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHasla.baml
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Okna\Logowanie\Window_ZmianaHaslaKod.baml
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Arturo\Desktop\Testowanie\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ChangePassword.g.cs
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ForgotPassword.g.cs
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_InputCode.g.cs
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ChangePassword.baml
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ForgotPassword.baml
+C:\Users\pulos\Desktop\Testowanie-oprogramowania-projekt-3-2 (1)\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_InputCode.baml
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ChangePassword.g.cs
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ForgotPassword.g.cs
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_InputCode.g.cs
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ChangePassword.baml
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ForgotPassword.baml
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_InputCode.baml
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3 (2)\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ChangePassword.g.cs
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ForgotPassword.g.cs
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_InputCode.g.cs
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ChangePassword.baml
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_ForgotPassword.baml
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\Window_InputCode.baml
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Window_Login.g.cs
+C:\Users\Acer\source\repos\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Window_Login.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.g.cs
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.g.cs
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.g.cs
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.g.cs
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.g.cs
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.baml
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.baml
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.baml
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.baml
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.baml
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.g.cs
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.g.cs
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.g.cs
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.baml
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.baml
+C:\Users\Acer\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Visual Studio\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.g.cs
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.baml
+C:\Users\pulos\Desktop\DemoApp\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\Git2\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowCalendarDayEdition.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlapping.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlappingChangeOffice.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowCalendarDayEdition.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlapping.baml
+C:\Users\pulos\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlappingChangeOffice.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowCalendarDayEdition.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlapping.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlappingChangeOffice.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowCalendarDayEdition.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlapping.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlappingChangeOffice.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.baml
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\OEM\OneDrive - Uniwersytet Łódzki\Pulpit\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowCalendarDayEdition.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorTerms.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlapping.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlappingChangeOffice.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendar.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageCalendarEdition.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowCalendarDayEdition.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorTerms.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlapping.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOverlappingChangeOffice.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.baml
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Desktop\Git\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\PageCalendar.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowCalendarDayEdition.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowDoctorTerms.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlapping.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlappingChangeOffice.g.cs
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\PageCalendar.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowCalendarDayEdition.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowDoctorTerms.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlapping.baml
+C:\Users\Acer\Desktop\Github\Clinic\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlappingChangeOffice.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\PageCalendar.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\PageCalendarEdition.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowCalendarDayEdition.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowDoctorTerms.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlapping.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlappingChangeOffice.g.cs
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\PageCalendar.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\PageCalendarEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowCalendarDayEdition.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowDoctorTerms.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlapping.baml
+C:\MS\Eksoc\Semestr 4\Testowanie oprogramowania\GIT\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlappingChangeOffice.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctor.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\PageCalendar.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowCalendarDayEdition.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowDoctorTerms.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlapping.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlappingChangeOffice.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctor.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\PageCalendar.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowCalendarDayEdition.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowDoctorTerms.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlapping.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlappingChangeOffice.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendar.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendar.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorEditCalendar.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorEditCalendar.baml
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorEditCalendarAdd.g.cs
+C:\Users\Dominik\Desktop\Testowanie oprogramowania projekt 3\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorEditCalendarAdd.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.exe
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.deps.json
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.json
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.runtimeconfig.dev.json
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.dll
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\Przychodnia.pdb
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignColors.dll
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\MaterialDesignThemes.Wpf.dll
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctor.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorEditCalendar.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendar.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\PageCalendar.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowCalendarDayEdition.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowDoctorTerms.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlapping.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlappingChangeOffice.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctor.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorEditCalendar.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorEditCalendarAdd.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendar.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\App.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.cache
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia_MarkupCompile.lref
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\App.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\MainWindow.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\WindowLogin.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\PageCalendar.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowCalendarDayEdition.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowDoctorTerms.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlapping.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Calendar\WindowOverlappingChangeOffice.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\PageViewListOfOffice.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowDoctorDataEdition.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowEmployeeDataEdition.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowOfficeDataEdition.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserDataEdition.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowUserList.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfDoctors.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\DictionariesHandling\WindowViewListOfEmployee.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorEditCalendarAdd.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\PageLogin.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowChangePassword.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowForgotPassword.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Login\WindowInputCode.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.g.resources
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfoInputs.cache
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.AssemblyInfo.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CoreCompileInputs.cache
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.CopyComplete
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.dll
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.pdb
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.genruntimeconfig.cache
