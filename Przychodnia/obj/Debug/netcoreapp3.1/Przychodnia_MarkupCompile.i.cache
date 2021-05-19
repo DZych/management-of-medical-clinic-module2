@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\
+D:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\
 Przychodnia
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-E:\DZych\management-of-medical-clinic-module2\Przychodnia\App.xaml
+D:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\App.xaml
 24-1487970699
 
 56449988491
-195-1775709999
+195840968470
 MainWindow.xaml;WindowAdministrator.xaml;WindowLogin.xaml;Windows\Calendar\PageCalendar.xaml;Windows\Calendar\WindowCalendarDayEdition.xaml;Windows\Calendar\WindowDoctorTerms.xaml;Windows\Calendar\WindowOverlapping.xaml;Windows\Calendar\WindowOverlappingChangeOffice.xaml;Windows\DictionariesHandling\PageViewListOfOffice.xaml;Windows\DictionariesHandling\WindowDoctorDataEdition.xaml;Windows\DictionariesHandling\WindowEmployeeDataEdition.xaml;Windows\DictionariesHandling\WindowOfficeDataEdition.xaml;Windows\DictionariesHandling\WindowUserDataEdition.xaml;Windows\DictionariesHandling\WindowUserList.xaml;Windows\DictionariesHandling\WindowViewListOfDoctors.xaml;Windows\DictionariesHandling\WindowViewListOfEmployee.xaml;Windows\Doctor\WindowDoctor.xaml;Windows\Doctor\WindowDoctorEditCalendar.xaml;Windows\Doctor\WindowDoctorEditCalendarAdd.xaml;Windows\Doctor\WindowDoctorNewCalendar.xaml;Windows\Login\PageLogin.xaml;Windows\Login\WindowChangePassword.xaml;Windows\Login\WindowForgotPassword.xaml;Windows\Login\WindowInputCode.xaml;
 
-False
+True
 
