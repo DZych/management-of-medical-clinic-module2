@@ -1,21 +1,27 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DZych\\management-of-medical-clinic-module2\\Przychodnia\\Przychodnia.csproj": {}
+    "C:\\Users\\Adam\\Desktop\\Studia\\Nowy folder\\management-of-medical-clinic-module2\\Przychodnia\\Przychodnia.csproj": {}
   },
   "projects": {
-    "E:\\DZych\\management-of-medical-clinic-module2\\Przychodnia\\Przychodnia.csproj": {
+    "C:\\Users\\Adam\\Desktop\\Studia\\Nowy folder\\management-of-medical-clinic-module2\\Przychodnia\\Przychodnia.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DZych\\management-of-medical-clinic-module2\\Przychodnia\\Przychodnia.csproj",
+        "projectUniqueName": "C:\\Users\\Adam\\Desktop\\Studia\\Nowy folder\\management-of-medical-clinic-module2\\Przychodnia\\Przychodnia.csproj",
         "projectName": "Przychodnia",
-        "projectPath": "E:\\DZych\\management-of-medical-clinic-module2\\Przychodnia\\Przychodnia.csproj",
-        "packagesPath": "C:\\Users\\Dominik\\.nuget\\packages\\",
-        "outputPath": "E:\\DZych\\management-of-medical-clinic-module2\\Przychodnia\\obj\\",
+        "projectPath": "C:\\Users\\Adam\\Desktop\\Studia\\Nowy folder\\management-of-medical-clinic-module2\\Przychodnia\\Przychodnia.csproj",
+        "packagesPath": "C:\\Users\\Adam\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Adam\\Desktop\\Studia\\Nowy folder\\management-of-medical-clinic-module2\\Przychodnia\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "D:\\VisualStudioSDK\\NuGetPackages",
+          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Dominik\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Adam\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"

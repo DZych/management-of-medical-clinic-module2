@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿
 FE:\DZych\management-of-medical-clinic-module2\Przychodnia\App.xaml;;
 FE:\DZych\management-of-medical-clinic-module2\Przychodnia\MainWindow.xaml;;
@@ -20,4 +21,28 @@ FE:\DZych\management-of-medical-clinic-module2\Przychodnia\Windows\Login\PageLog
 FE:\DZych\management-of-medical-clinic-module2\Przychodnia\Windows\Login\WindowChangePassword.xaml;;
 FE:\DZych\management-of-medical-clinic-module2\Przychodnia\Windows\Login\WindowForgotPassword.xaml;;
 FE:\DZych\management-of-medical-clinic-module2\Przychodnia\Windows\Login\WindowInputCode.xaml;;
+=======
+﻿D:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\GeneratedInternalTypeHelper.g.cs
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\App.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\MainWindow.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\WindowLogin.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\Calendar\PageCalendar.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\Calendar\WindowCalendarDayEdition.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\Calendar\WindowDoctorTerms.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\Calendar\WindowOverlapping.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\Calendar\WindowOverlappingChangeOffice.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\DictionariesHandling\PageViewListOfOffice.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\DictionariesHandling\WindowDoctorDataEdition.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\DictionariesHandling\WindowEmployeeDataEdition.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\DictionariesHandling\WindowOfficeDataEdition.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\DictionariesHandling\WindowUserDataEdition.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\DictionariesHandling\WindowUserList.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\DictionariesHandling\WindowViewListOfDoctors.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\DictionariesHandling\WindowViewListOfEmployee.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\Doctor\WindowDoctorEditCalendarAdd.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\Login\PageLogin.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\Login\WindowChangePassword.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\Login\WindowForgotPassword.xaml;;
+FD:\Pulpit\STUDIA\ĆWICZENIA - Testowanie oprogramowania\management-of-medical-clinic-module2\Przychodnia\Windows\Login\WindowInputCode.xaml;;
+>>>>>>> 6832908c8585f4dd43031b1b5c4233785f40591c
 
