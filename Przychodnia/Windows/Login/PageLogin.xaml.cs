@@ -22,6 +22,7 @@ using System.Windows.Threading;
 using System.ComponentModel;
 using Przychodnia.Class.DictionariesHanding;
 using Przychodnia.Windows.Doctor;
+using Przychodnia.Class.Doctor;
 
 namespace Przychodnia.Windows.Login
 {
@@ -91,6 +92,7 @@ namespace Przychodnia.Windows.Login
                 }
                 if (permission.Permission == "Doctor")
                 {
+                    ClassLoggedDoctor.Doctor_Id = ClassSQLConnections.GetLoggedDoctorId(login, password);
                     Main.OpenDoctorWindow();
                     return;
                 }

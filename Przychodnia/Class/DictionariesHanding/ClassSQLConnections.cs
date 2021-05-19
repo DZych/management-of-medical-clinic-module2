@@ -6,6 +6,7 @@ using System.Data.SqlClient;
 using System.Data.Common;
 using System.Windows.Controls;
 using System.Windows;
+using Przychodnia.Class.Doctor;
 
 namespace Przychodnia.Class.DictionariesHanding
 {
@@ -191,6 +192,55 @@ namespace Przychodnia.Class.DictionariesHanding
             sqlCon.Close();
             return permission;
         }
+
+        public static int GetLoggedDoctorId(string login, string password)
+        {
+            string querry = "USE db_Clinic " +
+            "SELECT Doctor_id FROM tbl_Doctor  " +
+            "WHERE Employee_id =  " +
+            "(SELECT Employee_id FROM tbl_Employee WHERE User_id =  " +
+            "(SELECT User_id FROM tbl_User WHERE tbl_User.Login = @login AND tbl_User.Password = @Password)) ";
+            SqlConnection sqlCon = new SqlConnection(ConString);
+            if (sqlCon.State == ConnectionState.Closed)
+            {
+                sqlCon.Open();
+            }
+            SqlCommand sqlCommand = new SqlCommand(querry, sqlCon);
+            sqlCommand.Parameters.AddWithValue("@login", login);
+            sqlCommand.Parameters.AddWithValue("@password", password);
+            SqlDataReader dr = sqlCommand.ExecuteReader();
+            int loggedDoctorId = 0;
+            while (dr.Read())
+            {
+                loggedDoctorId = dr.GetInt32("Doctor_id");
+            }
+            sqlCon.Close();
+            return loggedDoctorId;
+        }
+
+        public static int GetOfficeIdForDoctor(int idDoctor)
+        {
+            string querry = "USE db_Clinic " +
+            "SELECT Office_id   " +
+            "FROM tbl_Doctor  " +
+            "WHERE Doctor_id = @idDoctor  ";
+            SqlConnection sqlCon = new SqlConnection(ConString);
+            if (sqlCon.State == ConnectionState.Closed)
+            {
+                sqlCon.Open();
+            }
+            SqlCommand sqlCommand = new SqlCommand(querry, sqlCon);
+            sqlCommand.Parameters.AddWithValue("@idDoctor", idDoctor);
+            SqlDataReader dr = sqlCommand.ExecuteReader();
+            int officeId = 0;
+            while (dr.Read())
+            {
+                officeId = dr.GetInt32("Office_id");
+            }
+            sqlCon.Close();
+            return officeId;
+        }
+
 
         //Method that deletes office staff from data base when you remove office staff in program
         public static void DeleteEmployee(int id)

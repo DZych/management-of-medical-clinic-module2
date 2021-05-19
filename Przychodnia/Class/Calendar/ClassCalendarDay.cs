@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 
 namespace Przychodnia.Class.Calendar
@@ -84,6 +85,17 @@ namespace Przychodnia.Class.Calendar
             }
         }
 
+        public string DayOfWeek
+        {
+            get
+            {
+                return new DateTime(Calendar.Year, Calendar.Month, Day).ToString("ddd", new CultureInfo("en-EN"));
+            }
+        }
+
+
+        private bool isWorkingDay;
+        public bool IsWorkingDay { get => isWorkingDay; set => isWorkingDay = value; }
         #endregion
     }
 }

@@ -2,6 +2,7 @@
 using Przychodnia.Class.Doctor;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 using System.Windows;
 using System.Windows.Controls;
@@ -24,27 +25,140 @@ namespace Przychodnia.Windows.Doctor
         {
             InitializeComponent();
 
-            ClassExample day1 = new ClassExample("01.06.21", "Tue", "07:00", "20:00"); CurrentMonthDataGrid.Items.Add(day1);
-            ClassExample day2 = new ClassExample("02.06.21", "Wed", "07:00", "20:00"); CurrentMonthDataGrid.Items.Add(day2);
-            ClassExample day3 = new ClassExample("03.06.21", "Thu", "07:00", "20:00"); CurrentMonthDataGrid.Items.Add(day3);
-            ClassExample day4 = new ClassExample("04.06.21", "Fri", "07:00", "20:00"); CurrentMonthDataGrid.Items.Add(day4);
+            #region Load calendars to ComboBox
+            try
+            {
+                ComboBoxPickCalendar.ItemsSource = ClassSqlCalendar.AlreadyCreatedCalendarsForDoctor();
+                if (ComboBoxPickCalendar.Items.Count == 0) return;
+                ComboBoxPickCalendar.SelectedIndex = ComboBoxPickCalendar.Items.Count - 1;
+                LoadDateToGrid();
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+            #endregion
 
-            ClassExample day5 = new ClassExample("01.05.21", "Mon", "07:00", "20:00"); PreviousMonthDataGrid.Items.Add(day5);
-            ClassExample day6 = new ClassExample("02.05.21", "Tue", "07:00", "20:00"); PreviousMonthDataGrid.Items.Add(day6);
-            ClassExample day7 = new ClassExample("03.05.21", "Wed", "07:00", "20:00"); PreviousMonthDataGrid.Items.Add(day7);
-            ClassExample day8 = new ClassExample("04.05.21", "Thu", "07:00", "20:00"); PreviousMonthDataGrid.Items.Add(day8);
+            if (CurrentMonthDataGrid.SelectedIndex == -1)
+                workingDay.IsEnabled = false;
         }
 
-        private void CheckBoxWorkingDay_Click(object sender, RoutedEventArgs e)
+        List<ClassCalendarDay> days = new List<ClassCalendarDay>();
+        ClassCalendarDay lastSelectedDay = null;
+        int lastSelectedIndex = 0;
+
+        private void CheckBoxWorkingDay_Checked(object sender, RoutedEventArgs e)
+        {
+            workingDayFrom.IsEnabled = true;
+            workingDayTo.IsEnabled = true;
+
+            ClassCalendarDay day = (ClassCalendarDay)CurrentMonthDataGrid.SelectedItem;
+            lastSelectedDay = day;
+            lastSelectedIndex = CurrentMonthDataGrid.SelectedIndex;
+            day.IsWorkingDay = true;
+            days.RemoveAt(CurrentMonthDataGrid.SelectedIndex);
+            days.Insert(CurrentMonthDataGrid.SelectedIndex, day);
+
+            CurrentMonthDataGrid.ItemsSource = null;
+            CurrentMonthDataGrid.ItemsSource = days;
+            CurrentMonthDataGrid.SelectedIndex = lastSelectedIndex;
+
+            workingDayFrom.ItemsSource = GenerateListOfHours(day.StartTime, day.EndTime);
+            workingDayTo.ItemsSource = GenerateListOfHours(day.StartTime, day.EndTime);
+        }
+
+        private void CheckBoxWorkingDay_Unchecked(object sender, RoutedEventArgs e)
         {
             workingDayFrom.IsEnabled = false;
             workingDayTo.IsEnabled = false;
 
-            if ((bool)workingDay.IsChecked)
+            ClassCalendarDay day = (ClassCalendarDay)CurrentMonthDataGrid.SelectedItem;
+            lastSelectedDay = day;
+            lastSelectedIndex = CurrentMonthDataGrid.SelectedIndex;
+            day.IsWorkingDay = false;
+            days.RemoveAt(CurrentMonthDataGrid.SelectedIndex);
+            days.Insert(CurrentMonthDataGrid.SelectedIndex, day);
+
+            CurrentMonthDataGrid.ItemsSource = null;
+            CurrentMonthDataGrid.ItemsSource = days;
+            CurrentMonthDataGrid.SelectedIndex = lastSelectedIndex;
+
+            workingDayFrom.ItemsSource = null;
+            workingDayTo.ItemsSource = null;
+        }
+
+        private void CurrentMonthDataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            workingDay.IsEnabled = true;
+            ClassCalendarDay day = (ClassCalendarDay)CurrentMonthDataGrid.SelectedItem;
+            if (day == null)
             {
-                workingDayFrom.IsEnabled = true;
-                workingDayTo.IsEnabled = true;
+                if (lastSelectedDay.IsWorkingDay == true)
+                    workingDay.IsChecked = true;
+                else
+                    workingDay.IsChecked = false;
             }
+            else if (day.IsWorkingDay == true)
+                workingDay.IsChecked = true;
+            else
+                workingDay.IsChecked = false;
+        }
+
+        private void ComboBoxPickDate_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void LoadDateToGrid()
+        {
+            if (ComboBoxPickCalendar.SelectedIndex == -1)
+            {
+                CurrentMonthDataGrid.ItemsSource = null;
+                return;
+            }
+            try
+            {
+                ClassCalendar calendar = GetCalendarForSelectedCalendarInComboboxFromDataBase();
+
+                CurrentMonthDataGrid.ItemsSource = ClassSqlCalendar.ListOfCalendarDays(calendar.CalendarId);
+                days = ClassSqlCalendar.ListOfCalendarDays(calendar.CalendarId);
+
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private ClassCalendar GetCalendarForSelectedCalendarInComboboxFromDataBase()
+        {
+            if (ComboBoxPickCalendar.SelectedIndex == -1) throw new Exception("Calendar isn't selected");
+
+            //Get calendar from data base
+            IEnumerable<ClassCalendar> query =
+               from elem in ClassSqlCalendar.AlreadyCreatedCalendars()
+               where elem.CalendarId == ((ClassCalendar)ComboBoxPickCalendar.SelectedItem).CalendarId
+               select elem;
+            if (!query.Any()) throw new Exception("Unable to find selected calendar in database");
+            return query.First();
+        }
+
+        private void PrintInfo(object sender, MouseButtonEventArgs e)
+        {
+            ClassCalendarDay day = (ClassCalendarDay)CurrentMonthDataGrid.SelectedItem;
+            label1.Content = ClassLoggedDoctor.Doctor_Id;
+        }
+
+        private List<TimeSpan> GenerateListOfHours(TimeSpan start, TimeSpan stop)
+        {
+            List<TimeSpan> Times = new List<TimeSpan>();
+
+            for (var i = start; i <= stop; i = i + new TimeSpan(0,15,0))
+            {
+                Times.Add(i);
+            }
+
+            return Times;
         }
     }
 }

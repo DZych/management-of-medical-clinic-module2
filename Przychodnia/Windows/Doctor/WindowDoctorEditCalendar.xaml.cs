@@ -22,11 +22,6 @@ namespace Przychodnia.Windows.Doctor
         public WindowDoctorEditCalendar()
         {
             InitializeComponent();
-
-            ClassExample day1 = new ClassExample("01.05.21", "Tue", "07:00", "20:00"); CurrentMonthDataGrid.Items.Add(day1);
-            ClassExample day2 = new ClassExample("02.05.21", "Wed", "07:00", "20:00"); CurrentMonthDataGrid.Items.Add(day2);
-            ClassExample day3 = new ClassExample("03.05.21", "Thu", "07:00", "20:00"); CurrentMonthDataGrid.Items.Add(day3);
-            ClassExample day4 = new ClassExample("04.05.21", "Fri", "07:00", "20:00"); CurrentMonthDataGrid.Items.Add(day4);
         }
 
         private void ButtonAdd_Click(object sender, RoutedEventArgs e)

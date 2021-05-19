@@ -66,6 +66,25 @@ namespace Przychodnia.Class.Calendar
             ClassQuerry.CloseConnection();
             return CalendarList;
         }
+
+        public static List<ClassCalendar> AlreadyCreatedCalendarsForDoctor()
+        {
+            string querry = "Use [db_Clinic] SELECT [Calendar_id],[Year],[Month],[Status_id] FROM [db_Clinic].[dbo].[tbl_Calendar] WHERE [Status_id] = 2";
+            SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
+            List<ClassCalendar> CalendarList = new List<ClassCalendar>();
+            while (dr.Read())
+            {
+                ClassCalendar calendar = new ClassCalendar();
+                calendar.CalendarId = dr.GetInt32("Calendar_id");
+                calendar.Year = dr.GetInt32("Year");
+                calendar.Month = dr.GetInt32("Month");
+                calendar.Status = new ClassStatus();
+                calendar.Status.StatusId = dr.GetInt32("Status_id");
+                CalendarList.Add(calendar);
+            }
+            ClassQuerry.CloseConnection();
+            return CalendarList;
+        }
         public static List<ClassDoctor> ListOfDoctorsForSpecifiedCalendar(int calendarId)
         {
             string querry = "USE [db_Clinic] SELECT [tbl_Doctor].[Doctor_id],[Name],[Surname],[Phone_number],[Active],[Degree],[Type_of_specialization],[Office_id],[Specialization], " +
@@ -164,6 +183,8 @@ namespace Przychodnia.Class.Calendar
                 day.Calendar.CalendarId = dr.GetInt32("Calendar_id");
                 day.Calendar.Year = dr.GetInt32("Year");
                 day.Calendar.Month = dr.GetInt32("Month");
+                day.IsWorkingDay = false;
+
                 dayList.Add(day);
             }
             ClassQuerry.CloseConnection();
