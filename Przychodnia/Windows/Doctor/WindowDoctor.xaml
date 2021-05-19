@@ -51,11 +51,22 @@
                                 <TextBlock Text="Visits" FontSize="10" HorizontalAlignment="Center" Width="40"/>
                             </StackPanel>
                         </TabItem.Header>
-                        <Frame x:Name="FrameVisit" Background="CadetBlue" Source="" NavigationUIVisibility="Hidden" Padding="0" Margin="0,0,-9,0"/>
+                        <Frame x:Name="FrameVisit" Background="CadetBlue" Source="/Windows/Doctor/WindowDoctorVisits.xaml" NavigationUIVisibility="Hidden" Padding="0" Margin="0,0,-9,0"/>
                     </TabItem>
-                    
+
+                    <!--HistoryOfVisits-->
+                    <TabItem Style="{StaticResource MaterialDesignNavigationRailTabItem}" Height="100" Width="90">
+                        <TabItem.Header>
+                            <StackPanel Orientation="Vertical" Width="80" Margin="-9">
+                                <materialDesign:PackIcon Kind="PersonBoxMultiple" HorizontalAlignment="Center" Width="40" />
+                                <TextBlock Text="Hisotry of Visits" FontSize="10" HorizontalAlignment="Center" Width="50"/>
+                            </StackPanel>
+                        </TabItem.Header>
+                        <Frame x:Name="FrameListofPcient" Background="CadetBlue" Source="/Windows/Doctor/WindowDoctorSearchVisits.xaml" NavigationUIVisibility="Hidden" Padding="0" Margin="0,0,-9,0"/>
+                    </TabItem>
+
                     <!--Logout-->
-                    <TabItem Style="{StaticResource MaterialDesignNavigationRailTabItem}" Height="100" Width="90" MouseLeftButtonUp="TabItem_Logout">
+                    <TabItem Style="{StaticResource MaterialDesignNavigationRailTabItem}" Height="100" Width="90" MouseLeftButtonUp="TabItem_Logout" Margin="1,0,-1,0">
                         <TabItem.Header>
                             <StackPanel Orientation="Vertical" Width="70" HorizontalAlignment="Center">
                                 <materialDesign:PackIcon Kind="Logout" HorizontalAlignment="Center" Width="40" />
