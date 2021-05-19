@@ -103,7 +103,7 @@ namespace Przychodnia {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Przychodnia;component/windowadministrator.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Przychodnia;V1.0.0.0;component/windowadministrator.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\WindowAdministrator.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
