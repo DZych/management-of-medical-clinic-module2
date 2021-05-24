@@ -49,6 +49,12 @@
     <Compile Update="Windows\Doctor\WindowDoctorEditCalendarAdd.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Windows\Doctor\WindowDoctorHistoryOfVisits.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="Windows\Doctor\WindowDoctorHistoryOfVisitsDetails.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Windows\Doctor\WindowDoctorNewCalendar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -112,6 +118,12 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Windows\Doctor\WindowDoctorEditCalendarAdd.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Doctor\WindowDoctorHistoryOfVisits.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Doctor\WindowDoctorHistoryOfVisitsDetails.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Windows\Doctor\WindowDoctorNewCalendar.xaml">

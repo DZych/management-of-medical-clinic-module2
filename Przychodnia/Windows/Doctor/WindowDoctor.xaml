@@ -62,7 +62,7 @@
                                 <TextBlock Text="Hisotry of Visits" FontSize="10" HorizontalAlignment="Center" Width="50"/>
                             </StackPanel>
                         </TabItem.Header>
-                        <Frame x:Name="FrameListofPcient" Background="CadetBlue" Source="/Windows/Doctor/WindowDoctorSearchVisits.xaml" NavigationUIVisibility="Hidden" Padding="0" Margin="0,0,-9,0"/>
+                        <Frame x:Name="FrameListofPcient" Background="CadetBlue" Source="/Windows/Doctor/WindowDoctorHistoryOfVisits.xaml" NavigationUIVisibility="Hidden" Padding="0" Margin="0,0,-9,0"/>
                     </TabItem>
 
                     <!--Logout-->

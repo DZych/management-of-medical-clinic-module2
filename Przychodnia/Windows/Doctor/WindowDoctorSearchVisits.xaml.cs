@@ -15,7 +15,7 @@ namespace Przychodnia.Windows.Doctor
     /// <summary>
     /// Logika interakcji dla klasy WindowDoctorSearchVisits.xaml
     /// </summary>
-    public partial class WindowDoctorSearchVisits : Page
+    public partial class WindowDoctorSearchVisits : Window
     {
         public WindowDoctorSearchVisits()
         {

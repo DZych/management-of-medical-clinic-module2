@@ -88,8 +88,7 @@ namespace Przychodnia.Windows.DictionariesHandling {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Przychodnia;V1.0.0.0;component/windows/dictionarieshandling/windowviewlistofdoct" +
-                    "ors.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Przychodnia;component/windows/dictionarieshandling/windowviewlistofdoctors.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Windows\DictionariesHandling\WindowViewListOfDoctors.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
