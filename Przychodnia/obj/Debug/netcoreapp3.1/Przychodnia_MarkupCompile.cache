@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\Adam\Desktop\Studia\Nowy folder\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\
 Przychodnia
 none
 false
 TRACE;DEBUG;NETCOREAPP;NETCOREAPP3_1;
-C:\Users\Adam\Desktop\Studia\Nowy folder\management-of-medical-clinic-module2\Przychodnia\App.xaml
-28-1287150825
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\App.xaml
+291383511561
 
-581477146899
-195-1152233129
-MainWindow.xaml;WindowAdministrator.xaml;WindowLogin.xaml;Windows\Calendar\PageCalendar.xaml;Windows\Calendar\WindowCalendarDayEdition.xaml;Windows\Calendar\WindowDoctorTerms.xaml;Windows\Calendar\WindowOverlapping.xaml;Windows\Calendar\WindowOverlappingChangeOffice.xaml;Windows\DictionariesHandling\PageViewListOfOffice.xaml;Windows\DictionariesHandling\WindowDoctorDataEdition.xaml;Windows\DictionariesHandling\WindowEmployeeDataEdition.xaml;Windows\DictionariesHandling\WindowOfficeDataEdition.xaml;Windows\DictionariesHandling\WindowUserDataEdition.xaml;Windows\DictionariesHandling\WindowUserList.xaml;Windows\DictionariesHandling\WindowViewListOfDoctors.xaml;Windows\DictionariesHandling\WindowViewListOfEmployee.xaml;Windows\Doctor\WindowDoctor.xaml;Windows\Doctor\WindowDoctorEditCalendar.xaml;Windows\Doctor\WindowDoctorEditCalendarAdd.xaml;Windows\Doctor\WindowDoctorHistoryOfVisits.xaml;Windows\Doctor\WindowDoctorHistoryOfVisitsDetails.xaml;Windows\Doctor\WindowDoctorNewCalendar.xaml;Windows\Doctor\WindowDoctorSearchVisits.xaml;Windows\Doctor\WindowDoctorVisits.xaml;Windows\Login\PageLogin.xaml;Windows\Login\WindowChangePassword.xaml;Windows\Login\WindowForgotPassword.xaml;Windows\Login\WindowInputCode.xaml;
+591707214108
+195-1775709999
+MainWindow.xaml;WindowAdministrator.xaml;WindowLogin.xaml;Windows\Calendar\PageCalendar.xaml;Windows\Calendar\WindowCalendarDayEdition.xaml;Windows\Calendar\WindowDoctorTerms.xaml;Windows\Calendar\WindowOverlapping.xaml;Windows\Calendar\WindowOverlappingChangeOffice.xaml;Windows\DictionariesHandling\PageViewListOfOffice.xaml;Windows\DictionariesHandling\WindowDoctorDataEdition.xaml;Windows\DictionariesHandling\WindowEmployeeDataEdition.xaml;Windows\DictionariesHandling\WindowOfficeDataEdition.xaml;Windows\DictionariesHandling\WindowUserDataEdition.xaml;Windows\DictionariesHandling\WindowUserList.xaml;Windows\DictionariesHandling\WindowViewListOfDoctors.xaml;Windows\DictionariesHandling\WindowViewListOfEmployee.xaml;Windows\Doctor\WindowDoctor.xaml;Windows\Doctor\WindowDoctorEditCalendar.xaml;Windows\Doctor\WindowDoctorEditCalendarAdd.xaml;Windows\Doctor\WindowDoctorHistoryOfVisits.xaml;Windows\Doctor\WindowDoctorHistoryOfVisitsDetails.xaml;Windows\Doctor\WindowDoctorNewCalendar.xaml;Windows\Doctor\WindowDoctorNewCalendarEmpty.xaml;Windows\Doctor\WindowDoctorSearchVisits.xaml;Windows\Doctor\WindowDoctorVisits.xaml;Windows\Login\PageLogin.xaml;Windows\Login\WindowChangePassword.xaml;Windows\Login\WindowForgotPassword.xaml;Windows\Login\WindowInputCode.xaml;
 
 False
 

@@ -62,15 +62,15 @@
                 <!--Previous month-->
                 <DataGrid  Name="PreviousMonthDataGrid" Grid.Column="0" Grid.Row="3" Height="450" Width="300"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Opacity="0.525">
                     <DataGrid.Columns >
-                        <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding date}" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="Day" Binding="{Binding dayOfWeek}" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="Start" Binding="{Binding start}" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="End" Binding="{Binding end}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding DateString}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Day" Binding="{Binding DayOfWeek}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Start" Binding="{Binding StartTimeString}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="End" Binding="{Binding EndTimeString}" IsReadOnly="True"/>
                     </DataGrid.Columns>
                 </DataGrid>
                 
                 <!--Current month-->
-                <DataGrid Name="CurrentMonthDataGrid" Grid.Column="1" Grid.Row="3" Height="450" Width="300"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" MouseDown="PrintInfo" SelectionUnit="FullRow" SelectionChanged="CurrentMonthDataGrid_SelectionChanged" >
+                <DataGrid Name="CurrentMonthDataGrid" Grid.Column="1" Grid.Row="3" Height="450" Width="300"  AutoGenerateColumns="False" HorizontalScrollBarVisibility="Hidden" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" MouseDown="PrintInfo" SelectionUnit="FullRow" SelectionChanged="CurrentMonthDataGrid_SelectionChanged" LostFocus="CurrentMonthDataGrid_LostFocus" >
                     <DataGrid.RowStyle>
                         <Style TargetType="DataGridRow" BasedOn="{StaticResource MaterialDesignDataGridRow}">
                             <Style.Triggers>
@@ -81,11 +81,11 @@
                         </Style>
                     </DataGrid.RowStyle>
                     <DataGrid.Columns >
-                        <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding Date}" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="Day" Binding="{Binding DayOfWeek}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding Date }" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Day"  Binding="{Binding DayOfWeek}" IsReadOnly="True"/>
                         <materialDesign:DataGridTextColumn Header="Start" Binding="{Binding StartTimeString}" IsReadOnly="True"/>
                         <materialDesign:DataGridTextColumn Header="End" Binding="{Binding EndTimeString}" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="End" Binding="{Binding IsWorkingDay}" IsReadOnly="True" Visibility="Visible"/>
+                        <materialDesign:DataGridTextColumn Header="End" Binding="{Binding IsWorkingDay}" IsReadOnly="True" Visibility="Hidden"/>
                     </DataGrid.Columns>
                 </DataGrid>
 
@@ -116,15 +116,15 @@
                 <CheckBox Name="workingDay" Grid.ColumnSpan="2" Grid.Row="0" Margin="15" FontSize="16" Content="Working day" Checked="CheckBoxWorkingDay_Checked" Unchecked="CheckBoxWorkingDay_Unchecked"/>
 
                 <!--fourth row-->
-                <ComboBox Name="workingDayFrom" IsEnabled="False" Grid.Column="0" Grid.Row="2" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="From" Style="{StaticResource MaterialDesignFilledComboBox}"/>
-                <ComboBox Name="workingDayTo" IsEnabled="False" Grid.Column="1" Grid.Row="2" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="To" Style="{StaticResource MaterialDesignFilledComboBox}"/>
+                <ComboBox Name="workingDayFrom" IsEnabled="False" Grid.Column="0" Grid.Row="2" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="From" Style="{StaticResource MaterialDesignFilledComboBox}" SelectionChanged="workingDayFrom_SelectionChanged"/>
+                <ComboBox Name="workingDayTo" IsEnabled="False" Grid.Column="1" Grid.Row="2" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="To" Style="{StaticResource MaterialDesignFilledComboBox}" SelectionChanged="workingDayTo_SelectionChanged"/>
             </Grid>
             <Label Name ="label1" Content="Label"/>
         </StackPanel>
         
         <!--Accept button-->
         <StackPanel Grid.ColumnSpan="2" Grid.Row="1"  Width="1010" Height="80" Margin="0,5,200,0" HorizontalAlignment="Center" Background="{DynamicResource MaterialDesignPaper}" >
-            <Button  Width="300" Height="50" Margin="15" Content="Accept calendar" FontSize ="16" Foreground="GhostWhite" Cursor="Hand" />
+            <Button  Width="300" Height="50" Margin="15" Content="Accept calendar" FontSize ="16" Foreground="GhostWhite" Cursor="Hand" Click="Button_AcceptCalendarClick" />
         </StackPanel>
     </Grid>
 </Page>

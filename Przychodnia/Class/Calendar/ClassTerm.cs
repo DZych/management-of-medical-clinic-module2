@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Text;
 
 namespace Przychodnia.Class.Calendar
@@ -37,6 +38,8 @@ namespace Przychodnia.Class.Calendar
             get { return date; }
             set { date = value; }
         }
+
+        private DateTime dateString;
 
         private ClassCalendarDoctor calendarDoctor;
 
@@ -107,9 +110,20 @@ namespace Przychodnia.Class.Calendar
         {
             get
             {
-                return Date.ToShortDateString();
+                return Date.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
             }
         }
+
+        public string DayOfWeek
+        {
+            get
+            {
+                return Date.ToString("ddd", new CultureInfo("en-EN"));
+            }
+        }
+
+        private bool isWorkingDay;
+        public bool IsWorkingDay { get => isWorkingDay; set => isWorkingDay = value; }
 
         #region Geters for data grid 
         public int GetOficeNumber
