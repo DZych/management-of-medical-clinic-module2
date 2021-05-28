@@ -40,7 +40,7 @@ namespace Przychodnia.Class.Calendar
         #endregion
         public override string ToString()
         {
-            return Month.ToString() + "-" + Year.ToString();
+            return new DateTime(Year, Month, 1).ToString("MM-yyyy");
         }
     }
 }

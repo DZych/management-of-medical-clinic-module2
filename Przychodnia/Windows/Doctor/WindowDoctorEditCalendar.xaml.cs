@@ -14,6 +14,7 @@ using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Przychodnia.Class.Calendar;
 using System.Linq;
+using Przychodnia.Class.Login;
 
 namespace Przychodnia.Windows.Doctor
 {
@@ -54,16 +55,16 @@ namespace Przychodnia.Windows.Doctor
 
                 if (workingDayFrom.SelectedIndex == workingDayFrom.Items.Count - 1)
                 {
-                    workingDayTo.ItemsSource = GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex], lastSelectedTerm.EndTime + new TimeSpan(0, 15, 0));
+                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex], lastSelectedTerm.EndTime + new TimeSpan(0, 15, 0));
                 }
                 else
                 {
-                    workingDayTo.ItemsSource = GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], lastSelectedTerm.EndTime);
+                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], lastSelectedTerm.EndTime);
                 }
 
                 if ((TimeSpan)workingDayFrom.SelectedItem > lastSelectedTerm.EndTime)
                 {
-                    workingDayTo.ItemsSource = GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], GenerateListOfHours(new TimeSpan(7, 15, 0), new TimeSpan(20, 00, 0))[lastSelectedIndex]);
+                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], ClassHelpers.GenerateListOfHours(new TimeSpan(7, 15, 0), new TimeSpan(20, 00, 0))[lastSelectedIndex]);
                     workingDayTo.SelectedIndex = 0;
                 }
             }
@@ -114,9 +115,9 @@ namespace Przychodnia.Windows.Doctor
 
             RefreshDataGrid();
 
-            workingDayFrom.ItemsSource = GenerateListOfHours(new TimeSpan(7, 0, 0), new TimeSpan(19, 45, 0));
+            workingDayFrom.ItemsSource = ClassHelpers.GenerateListOfHours(new TimeSpan(7, 0, 0), new TimeSpan(19, 45, 0));
             workingDayFrom.SelectedItem = lastSelectedTerm.StartTime;
-            workingDayTo.ItemsSource = GenerateListOfHours(new TimeSpan(7, 15, 0), new TimeSpan(20, 0, 0));
+            workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours(new TimeSpan(7, 15, 0), new TimeSpan(20, 0, 0));
             workingDayTo.SelectedItem = lastSelectedTerm.StartTime;
         }
 
@@ -164,29 +165,6 @@ namespace Przychodnia.Windows.Doctor
             CurrentMonthDataGrid.ItemsSource = null;
             CurrentMonthDataGrid.ItemsSource = ListOfTerms;
             CurrentMonthDataGrid.SelectedIndex = lastSelectedIndex;
-        }
-
-        private List<TimeSpan> GenerateListOfHours(TimeSpan start, TimeSpan stop)
-        {
-            List<TimeSpan> Times = new List<TimeSpan>();
-
-            for (var i = start; i <= stop; i = i + new TimeSpan(0, 15, 0))
-            {
-                Times.Add(i);
-            }
-
-            return Times;
-        }
-
-        private ClassCalendar GetCalendarForActualMonth()
-        {
-            //Get calendar from data base
-            IEnumerable<ClassCalendar> query =
-               from elem in ClassSqlCalendar.AlreadyCreatedCalendars()
-               where elem.Month == ListOfTerms[0].Date.Month & elem.Year == ListOfTerms[0].Date.Year
-               select elem;
-            if (!query.Any()) throw new Exception("Unable to find selected calendar in database");
-            return query.First();
         }
 
     }

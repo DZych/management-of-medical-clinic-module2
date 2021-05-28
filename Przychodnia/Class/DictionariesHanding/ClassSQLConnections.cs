@@ -7,6 +7,7 @@ using System.Data.Common;
 using System.Windows.Controls;
 using System.Windows;
 using Przychodnia.Class.Doctor;
+using Przychodnia.Class.Calendar;
 
 namespace Przychodnia.Class.DictionariesHanding
 {
@@ -171,25 +172,17 @@ namespace Przychodnia.Class.DictionariesHanding
         public static ClassPermission GetUserType(string login, string password)
         {
             string querry = "USE db_Clinic " +
-            "SELECT tbl_User.Permission_id, Type_of_permission FROM tbl_User, tbl_Permission " +
-            "WHERE tbl_Permission.Permission_id = tbl_User.Permission_id " +
-            "AND login = @login AND Password = @Password ";
-            SqlConnection sqlCon = new SqlConnection(ConString);
-            if (sqlCon.State == ConnectionState.Closed)
-            {
-                sqlCon.Open();
-            }
-            SqlCommand sqlCommand = new SqlCommand(querry, sqlCon);
-            sqlCommand.Parameters.AddWithValue("@login", login);
-            sqlCommand.Parameters.AddWithValue("@password", password);
-            SqlDataReader dr = sqlCommand.ExecuteReader();
+            "SELECT tbl_User.Role_id, Type_of_role FROM tbl_User, tbl_Role " +
+            "WHERE tbl_Role.Role_id = tbl_User.Role_id " +
+            "AND login = '" + login + "' AND Password = '"+ password +"' ";
+            SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
             ClassPermission permission = new ClassPermission();
             while (dr.Read())
             {
-                permission.PermissionId = dr.GetInt32("Permission_id");
-                permission.Permission = dr.GetString("Type_of_permission");
+                permission.PermissionId = dr.GetInt32("Role_id");
+                permission.Permission = dr.GetString("Type_of_role");
             }
-            sqlCon.Close();
+            ClassQuerry.CloseConnection();
             return permission;
         }
 
@@ -199,22 +192,14 @@ namespace Przychodnia.Class.DictionariesHanding
             "SELECT Doctor_id FROM tbl_Doctor  " +
             "WHERE Employee_id =  " +
             "(SELECT Employee_id FROM tbl_Employee WHERE User_id =  " +
-            "(SELECT User_id FROM tbl_User WHERE tbl_User.Login = @login AND tbl_User.Password = @Password)) ";
-            SqlConnection sqlCon = new SqlConnection(ConString);
-            if (sqlCon.State == ConnectionState.Closed)
-            {
-                sqlCon.Open();
-            }
-            SqlCommand sqlCommand = new SqlCommand(querry, sqlCon);
-            sqlCommand.Parameters.AddWithValue("@login", login);
-            sqlCommand.Parameters.AddWithValue("@password", password);
-            SqlDataReader dr = sqlCommand.ExecuteReader();
+            "(SELECT User_id FROM tbl_User WHERE tbl_User.Login = '"+ login +"' AND tbl_User.Password = '"+ password +"')) ";
+            SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
             int loggedDoctorId = 0;
             while (dr.Read())
             {
                 loggedDoctorId = dr.GetInt32("Doctor_id");
             }
-            sqlCon.Close();
+            ClassQuerry.CloseConnection();
             return loggedDoctorId;
         }
 
@@ -223,21 +208,14 @@ namespace Przychodnia.Class.DictionariesHanding
             string querry = "USE db_Clinic " +
             "SELECT Office_id   " +
             "FROM tbl_Doctor  " +
-            "WHERE Doctor_id = @idDoctor  ";
-            SqlConnection sqlCon = new SqlConnection(ConString);
-            if (sqlCon.State == ConnectionState.Closed)
-            {
-                sqlCon.Open();
-            }
-            SqlCommand sqlCommand = new SqlCommand(querry, sqlCon);
-            sqlCommand.Parameters.AddWithValue("@idDoctor", idDoctor);
-            SqlDataReader dr = sqlCommand.ExecuteReader();
+            "WHERE Doctor_id = "+ idDoctor + "  ";
+            SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
             int officeId = 0;
             while (dr.Read())
             {
                 officeId = dr.GetInt32("Office_id");
             }
-            sqlCon.Close();
+            ClassQuerry.CloseConnection();
             return officeId;
         }
 

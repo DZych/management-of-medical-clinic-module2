@@ -1,6 +1,7 @@
 ﻿using Przychodnia.Class.Calendar;
 using Przychodnia.Class.DictionariesHanding;
 using Przychodnia.Class.Doctor;
+using Przychodnia.Class.Login;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -66,9 +67,9 @@ namespace Przychodnia.Windows.Doctor
 
             RefreshDataGrid();
 
-            workingDayFrom.ItemsSource = GenerateListOfHours(ListOfOriginalDays()[lastSelectedIndex].StartTime, ListOfOriginalDays()[lastSelectedIndex].EndTime - new TimeSpan(0, 15, 0));
+            workingDayFrom.ItemsSource = ClassHelpers.GenerateListOfHours(ListOfOriginalDays()[lastSelectedIndex].StartTime, ListOfOriginalDays()[lastSelectedIndex].EndTime - new TimeSpan(0, 15, 0));
             workingDayFrom.SelectedItem = lastSelectedDay.StartTime;
-            workingDayTo.ItemsSource = GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], day.EndTime);
+            workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], day.EndTime);
             workingDayTo.SelectedIndex = workingDayTo.Items.Count - 1;
         }
 
@@ -161,17 +162,6 @@ namespace Przychodnia.Windows.Doctor
             label1.Content = ClassLoggedDoctor.Doctor_Id;
         }
 
-        private List<TimeSpan> GenerateListOfHours(TimeSpan start, TimeSpan stop)
-        {
-            List<TimeSpan> Times = new List<TimeSpan>();
-
-            for (var i = start; i <= stop; i = i + new TimeSpan(0, 15, 0))
-            {
-                Times.Add(i);
-            }
-
-            return Times;
-        }
 
         private void RefreshDataGrid()
         {
@@ -198,20 +188,16 @@ namespace Przychodnia.Windows.Doctor
 
                 if (workingDayFrom.SelectedIndex == workingDayFrom.Items.Count - 1)
                 {
-                    workingDayTo.ItemsSource = GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex], lastSelectedDay.EndTime + new TimeSpan(0, 15, 0));
+                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex], lastSelectedDay.EndTime + new TimeSpan(0, 15, 0));
                 }
                 else
                 {
-                    workingDayTo.ItemsSource = GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], lastSelectedDay.EndTime);
+                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], lastSelectedDay.EndTime);
                 }
 
                 if ((TimeSpan)workingDayFrom.SelectedItem > lastSelectedDay.EndTime)
                 {
-
-                    ClassCalendar calendar = GetCalendarForSelectedCalendarInComboboxFromDataBase();
-                    List<ClassCalendarDay> orignalDays = new List<ClassCalendarDay>();
-                    orignalDays = ClassSqlCalendar.ListOfCalendarDays(calendar.CalendarId);
-                    workingDayTo.ItemsSource = GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], orignalDays[lastSelectedIndex].EndTime);
+                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], ListOfOriginalDays()[lastSelectedIndex].EndTime);
                     workingDayTo.SelectedIndex = 0;
                 }
             }
