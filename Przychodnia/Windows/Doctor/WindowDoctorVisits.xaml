@@ -16,34 +16,55 @@
         FontFamily="{materialDesign:MaterialDesignFont}"
         Height="780"
       
-      Title="WindowDoctorVisits" Width="1200">
+      Title="WindowDoctorVisits" Width="1400">
 
 
     <Grid HorizontalAlignment="Center" VerticalAlignment="Stretch">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="1*"/>
+            <ColumnDefinition Width="1*"/>
+            
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Column="0" Grid.Row="0" Width="500" HorizontalAlignment="Center" Margin="0,0,5,0" Background="{DynamicResource MaterialDesignPaper}" Grid.RowSpan="2" >
             <materialDesign:ColorZone Mode="PrimaryMid" Effect="{DynamicResource MaterialDesignShadowDepth2}" Height="75">
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="Visits" FontSize="30" Foreground="GhostWhite" />
             </materialDesign:ColorZone>
-            <ComboBox Width="500" Height="50" materialDesign:HintAssist.Hint="Date" FontSize="18"   HorizontalContentAlignment="Center" Style="{StaticResource MaterialDesignFilledComboBox}" />
-            <DataGrid x:Name="Visits" Height="600" Width="500" AutoGenerateColumns="False" Margin="0,20,0,0" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" >
+            <ComboBox Width="500" Height="50" materialDesign:HintAssist.Hint="Date" FontSize="18"   HorizontalContentAlignment="Center" Style="{StaticResource MaterialDesignFilledComboBox}" SelectionChanged="ComboBox_SelectionChanged" />
+            <DataGrid x:Name="Visits" Height="600" Width="450" AutoGenerateColumns="False" Margin="0,20,0,0" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" >
                 <DataGrid.Columns>
-                    <materialDesign:DataGridTextColumn Header="Time" Binding="{Binding EmployeeId}" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="ID" Binding="{Binding EmployeeId}" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Name" Binding="{Binding EmployeeId}" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Surname" Binding="{Binding EmployeeId}" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="PESEL number" Binding="{Binding EmployeeId}" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Status" Binding="{Binding EmployeeId}" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Time" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="ID" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Name" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Surname" Binding="{Binding EmployeeId}" Width="2*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="PESEL" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Status" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
 
                 </DataGrid.Columns>
 
             </DataGrid>
 
         </StackPanel>
-        <StackPanel Grid.Column="1" Grid.Row="0" Width="450" HorizontalAlignment="Center" Margin="5,0,0,0" Background="{DynamicResource MaterialDesignPaper}" Grid.RowSpan="2" >
+        <StackPanel Grid.Column="1" Grid.Row="0" Width="500" HorizontalAlignment="Center" Margin="5,0,5,0" Background="{DynamicResource MaterialDesignPaper}" Grid.RowSpan="2">
+            <materialDesign:ColorZone Mode="PrimaryMid" Effect="{DynamicResource MaterialDesignShadowDepth2}" Height="75">
+                <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="History" FontSize="30" Foreground="GhostWhite" />
+            </materialDesign:ColorZone>
+            <DataGrid x:Name="HistoryofPacient" Height="600" Width="450" AutoGenerateColumns="False" Margin="0,20,0,0" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" >
+                <DataGrid.Columns>
+                    <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="ID" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Name" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Surname" Binding="{Binding EmployeeId}" Width="2*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="PESEL" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Status" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+
+                </DataGrid.Columns>
+
+            </DataGrid>
+            
+            
+        </StackPanel>
+        <StackPanel Grid.Column="2" Grid.Row="0" Width="450" HorizontalAlignment="Center" Margin="5,0,0,0" Background="{DynamicResource MaterialDesignPaper}" Grid.RowSpan="2" >
             <materialDesign:ColorZone Mode="PrimaryMid" Effect="{DynamicResource MaterialDesignShadowDepth2}" Height="75">
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="Description" FontSize="30" Foreground="GhostWhite" />
             </materialDesign:ColorZone>

@@ -41,5 +41,10 @@ namespace Przychodnia.Windows.Doctor
         {
 
         }
+
+        private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
