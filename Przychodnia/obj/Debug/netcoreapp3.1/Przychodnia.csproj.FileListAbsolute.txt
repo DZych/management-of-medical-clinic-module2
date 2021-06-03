@@ -1139,3 +1139,5 @@ E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.
 E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorVisits.baml
 E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendarEmpty.baml
 E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendarEmpty.g.cs
+C:\Users\Adam\Desktop\Studia\Nowy folder\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendarEmpty.baml
+C:\Users\Adam\Desktop\Studia\Nowy folder\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendarEmpty.g.cs

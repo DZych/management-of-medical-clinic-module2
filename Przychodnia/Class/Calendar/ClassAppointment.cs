@@ -8,6 +8,14 @@ namespace Przychodnia.Class.Calendar
     {
         #region Variables
         private int appointmendtId;
+        private int termID;
+        private int pacientID;
+        private TimeSpan startTime ;
+        private string topic;
+        private string description;
+
+
+
 
         public int AppointmendtId
         {
@@ -15,7 +23,7 @@ namespace Przychodnia.Class.Calendar
             set { appointmendtId = value; }
         }
 
-        private TimeSpan startTime;
+        
 
         public TimeSpan StartTime
         {
@@ -30,6 +38,15 @@ namespace Przychodnia.Class.Calendar
             get { return term; }
             set { term = value; }
         }
+
+        public int TermID 
+        { get => termID; set => termID = value; }
+        public int PacientID 
+        { get => pacientID; set => pacientID = value; }
+        public string Topic 
+        { get => topic; set => topic = value; }
+        public string Description 
+        { get => description; set => description = value; }
         #endregion
     }
 }

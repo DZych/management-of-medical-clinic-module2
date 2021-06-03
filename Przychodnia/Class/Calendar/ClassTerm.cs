@@ -144,5 +144,10 @@ namespace Przychodnia.Class.Calendar
         }
         #endregion
         #endregion
+
+        public override string ToString()
+        {
+            return Date.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
+        }
     }
 }

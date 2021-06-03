@@ -104,7 +104,7 @@ namespace Przychodnia.Windows.Login {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Przychodnia;V1.0.0.0;component/windows/login/pagelogin.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Przychodnia;component/windows/login/pagelogin.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Windows\Login\PageLogin.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

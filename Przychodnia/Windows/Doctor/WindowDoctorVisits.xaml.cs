@@ -1,4 +1,6 @@
 ﻿using System;
+using Przychodnia.Class.Calendar;
+using Przychodnia.Class.DictionariesHanding;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -21,6 +23,18 @@ namespace Przychodnia.Windows.Doctor
         public WindowDoctorVisits()
         {
             InitializeComponent();
+            #region Load Date to Combo
+            try
+            {
+                DateVisitComboBox.ItemsSource = ClassSqlAppointment.AppointmentsDateForCombobox();
+
+                DateVisitComboBox.SelectedIndex = DateVisitComboBox.Items.Count - 1;
+                
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
             
         }
 
@@ -32,6 +46,7 @@ namespace Przychodnia.Windows.Doctor
             {
                 ResultOfVisit.IsReadOnly = false;
                 ConfirmResult.Visibility =Visibility.Visible;
+                TopicResult.IsReadOnly = false;
                 
             }
 
@@ -48,3 +63,4 @@ namespace Przychodnia.Windows.Doctor
         }
     }
 }
+#endregion

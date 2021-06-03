@@ -30,7 +30,7 @@
             <materialDesign:ColorZone Mode="PrimaryMid" Effect="{DynamicResource MaterialDesignShadowDepth2}" Height="75">
                 <TextBlock VerticalAlignment="Center" HorizontalAlignment="Center" Text="Visits" FontSize="30" Foreground="GhostWhite" />
             </materialDesign:ColorZone>
-            <ComboBox Width="500" Height="50" materialDesign:HintAssist.Hint="Date" FontSize="18"   HorizontalContentAlignment="Center" Style="{StaticResource MaterialDesignFilledComboBox}" SelectionChanged="ComboBox_SelectionChanged" />
+            <ComboBox x:Name="DateVisitComboBox" Width="500" Height="50" materialDesign:HintAssist.Hint="Date" FontSize="18"   HorizontalContentAlignment="Center" Style="{StaticResource MaterialDesignFilledComboBox}" SelectionChanged="ComboBox_SelectionChanged" />
             <DataGrid x:Name="Visits" Height="600" Width="450" AutoGenerateColumns="False" Margin="0,20,0,0" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" >
                 <DataGrid.Columns>
                     <materialDesign:DataGridTextColumn Header="Time" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
@@ -53,9 +53,9 @@
                 <DataGrid.Columns>
                     <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
                     <materialDesign:DataGridTextColumn Header="ID" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Name" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Surname" Binding="{Binding EmployeeId}" Width="2*" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="PESEL" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Doctor" Binding="{Binding EmployeeId}" Width="2*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Topic" Binding="{Binding EmployeeId}" Width="2*" IsReadOnly="True"/>
+                    
                     
 
                 </DataGrid.Columns>
@@ -99,6 +99,16 @@
                 </Grid.ColumnDefinitions>
                 <TextBlock Margin="0,11,40,0" Text="Phone :" Grid.Column="0" HorizontalAlignment="Right"/>
                 <TextBlock Text="16546546954" Grid.Column="1" Margin="0,11,40,0" HorizontalAlignment="Left"/>
+
+
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="135"></ColumnDefinition>
+                    <ColumnDefinition Width="*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <TextBlock Margin="0,11,40,0" Text="Topic :" Grid.Column="0" HorizontalAlignment="Right"/>
+                <TextBox x:Name="TopicResult" Text="" Grid.Column="1" Margin="0,11,40,0" HorizontalAlignment="Left" FontSize="13" IsReadOnly="True" MaxLength="200" Width="200" />
 
 
             </Grid>
