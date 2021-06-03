@@ -43,12 +43,13 @@
                 </Grid.RowDefinitions>
 
                 <!--Current month-->
-                <DataGrid Name="CurrentMonthDataGrid" Grid.Column="0" Grid.Row="0" Height="600" Width="300"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" >
+                <DataGrid Name="CurrentMonthDataGrid" Grid.Column="0" Grid.Row="0" Height="600" Width="300"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" SelectionChanged="CurrentMonthDataGrid_SelectionChanged" LostFocus="CurrentMonthDataGrid_LostFocus">
                     <DataGrid.Columns >
-                        <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding date}" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="Day" Binding="{Binding dayOfWeek}" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="Start" Binding="{Binding start}" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="End" Binding="{Binding end}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding DateString}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Day" Binding="{Binding DayOfWeek}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Start" Binding="{Binding StartTimeString}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="End" Binding="{Binding EndTimeString}" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="End" Binding="{Binding IsWorkingDay}" IsReadOnly="True" Visibility="Visible"/>
                     </DataGrid.Columns>
                 </DataGrid>
 
@@ -77,20 +78,22 @@
                 </Grid.RowDefinitions>
 
                 <!--firs row-->
-                <CheckBox Name="workingDay" Grid.ColumnSpan="2" Grid.Row="0" Margin="15" FontSize="16" Content="Working day" Click="CheckBoxWorkingDay_Click" />
+
+                <CheckBox Name="workingDay" Grid.ColumnSpan="2" Grid.Row="0" Margin="15" FontSize="16" Content="Working day" Checked="CheckBoxWorkingDay_Checked" Unchecked="CheckBoxWorkingDay_Unchecked" />
 
                 <!--second row-->
-                <ComboBox Name="workingDayFrom" IsEnabled="False" Grid.Column="0" Grid.Row="1" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="From" Visibility="Visible" Style="{StaticResource MaterialDesignFilledComboBox}"/>
-                <ComboBox Name="workingDayTo"  Grid.Column="1" Grid.Row="1" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="To" Visibility="Visible" Style="{StaticResource MaterialDesignFilledComboBox}"/>
+
+                <ComboBox Name="workingDayFrom" IsEnabled="False" Grid.Column="0" Grid.Row="1" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="From" Visibility="Visible" Style="{StaticResource MaterialDesignFilledComboBox}" SelectionChanged="workingDayFrom_SelectionChanged"/>
+                <ComboBox Name="workingDayTo"  IsEnabled="False" Grid.Column="1" Grid.Row="1" Height="50" Width="150"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="To" Visibility="Visible" Style="{StaticResource MaterialDesignFilledComboBox}" SelectionChanged="workingDayTo_SelectionChanged"/>
 
                 <!-- third row-->
-                <CheckBox Name="checkBoxChangeDay" Grid.ColumnSpan="2" Grid.Row="2" Margin="15" Content="Change day" FontSize="16" Click="CheckBoxChangeDay_Click"/>
+                <CheckBox Name="checkBoxChangeDay" Grid.ColumnSpan="2" Grid.Row="2" Margin="15" Content="Change day" FontSize="16" Checked="CheckBoxChangeDay_Checked" Unchecked="CheckBoxChange_Unchecked"/>
 
                 <!--fourth row-->
                 <ComboBox Name="availableDates" IsEnabled="False" Grid.ColumnSpan="2" Grid.Row="3" Height="50" Width="340"  HorizontalAlignment="Center" materialDesign:HintAssist.Hint="Available dates" Style="{StaticResource MaterialDesignFilledComboBox}"/>
 
                 <!--fifth row-->
-                <CheckBox Grid.ColumnSpan="2" Grid.Row="4" Margin="15" Content="Lock date" FontSize="16"/>
+
             </Grid>
         </StackPanel>
 

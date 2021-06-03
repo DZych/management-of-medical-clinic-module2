@@ -58,6 +58,9 @@
     <Compile Update="Windows\Doctor\WindowDoctorNewCalendar.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Update="Windows\Doctor\WindowDoctorNewCalendarEmpty.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Update="Windows\Login\PageLogin.xaml.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -127,6 +130,9 @@
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Windows\Doctor\WindowDoctorNewCalendar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="Windows\Doctor\WindowDoctorNewCalendarEmpty.xaml">
       <SubType>Designer</SubType>
     </Page>
     <Page Update="Windows\Login\PageLogin.xaml">

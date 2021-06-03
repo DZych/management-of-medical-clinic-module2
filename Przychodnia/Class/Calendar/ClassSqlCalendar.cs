@@ -164,6 +164,28 @@ namespace Przychodnia.Class.Calendar
             ClassQuerry.CloseConnection();
             return TermList;
         }
+
+        public static List<ClassTerm> GetListOfWorkingDayInCurrentMonth(int doctor_id)
+        {
+            string querry = " SELECT Term_id, Start_time, End_time, Date FROM [dbo].[tbl_Term] WHERE Doctor_id = "+ doctor_id +
+                " AND YEAR(Date) = YEAR(GETDATE()) AND MONTH(Date) = MONTH(GETDATE())";
+            SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
+            List<ClassTerm> TermList = new List<ClassTerm>();
+            while (dr.Read())
+            {
+                ClassTerm term = new ClassTerm();
+                term.TermId = dr.GetInt32("Term_id");
+                term.StartTime = dr.GetTimeSpan(1);
+                term.EndTime = dr.GetTimeSpan(2);
+                term.Date = dr.GetDateTime("Date");
+                term.IsWorkingDay = true;
+                TermList.Add(term);
+            }
+            ClassQuerry.CloseConnection();
+            return TermList;
+        }
+
+
         public static List<ClassCalendarDay> ListOfCalendarDays(int calendarId)
         {
             string querry = "USE[db_Clinic] SELECT[Calendar_day_id],[Day],[Start_time],[End_time],[tbl_Calendar].[Calendar_id], [Year],[Month] " +
@@ -239,6 +261,34 @@ namespace Przychodnia.Class.Calendar
             ClassQuerry.CloseConnection();
             return TermList;
         }
+
+        public static int GetDayIdForCalendarDate(int calendarYear, int calendarMonth, int dayOfMonth)
+        {
+            string querry = "SELECT dbo.tbl_Calendar_Day.Calendar_day_id FROM dbo.tbl_Calendar_Day, dbo.tbl_Calendar WHERE dbo.tbl_Calendar.Year = " + calendarYear +" AND dbo.tbl_Calendar.Month = " + calendarMonth + " AND dbo.tbl_Calendar_Day.Day = " + dayOfMonth;
+            SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
+            int dayId = 0;
+            while (dr.Read())
+            {
+                dayId = dr.GetInt32("Calendar_day_id");
+            }
+            ClassQuerry.CloseConnection();
+            return dayId;
+        }
+
+        public static int GetCalendarIdForDoctor(int doctorId, int calendarId)
+        {
+            string querry = "SELECT[dbo].[tbl_Calendar_doctor].Calendar_doctor_id FROM[dbo].[tbl_Calendar_doctor] WHERE dbo.tbl_Calendar_doctor.Doctor_id = "+ doctorId +
+                " AND dbo.tbl_Calendar_doctor.Calendar_id = " + calendarId;
+            SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
+            int calendar_doctor_Id = 0;
+            while (dr.Read())
+            {
+                calendar_doctor_Id = dr.GetInt32("Calendar_doctor_id");
+            }
+            ClassQuerry.CloseConnection();
+            return calendar_doctor_Id;
+        }
+
         public static List<ClassOverlappingCalendar> OverlappingTerms(int callendarId)
         {
             string querry = "" +
@@ -390,10 +440,10 @@ namespace Przychodnia.Class.Calendar
             ClassQuerry.CloseConnection();
             return index;
         }
-        public static void CreateTerm(int CalendarDoctorId, int CalendarDayId, int OfficeId, int doctorID, DateTime Date)
+        public static void CreateTerm(TimeSpan startTime, TimeSpan endTime , int CalendarDoctorId, int CalendarDayId, int OfficeId, int doctorID, string Date)
         {
             string querry = "Use [db_Clinic] INSERT INTO [dbo].[tbl_Term] (Start_time,End_time,Date,Calendar_doctor_id,Calendar_day_id,Office_id,Doctor_id)" +
-            String.Format("Values ('{0}','{1}','{2}',{3},{4},{5},{6})", new TimeSpan(7, 0, 0), new TimeSpan(20, 0, 0),String.Format(Date.Year + "-" + Date.Month + "-" + Date.Day), CalendarDoctorId, CalendarDayId, OfficeId, doctorID);
+            String.Format("Values ('{0}','{1}','{2}',{3},{4},{5},{6})", startTime, endTime, Date, CalendarDoctorId, CalendarDayId, OfficeId, doctorID);
             SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
             ClassQuerry.CloseConnection();
         }

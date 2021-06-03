@@ -1129,3 +1129,13 @@ C:\Users\Adam\Desktop\Studia\Nowy folder\management-of-medical-clinic-module2\Pr
 C:\Users\Adam\Desktop\Studia\Nowy folder\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorHistoryOfVisits.baml
 C:\Users\Adam\Desktop\Studia\Nowy folder\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorHistoryOfVisitsDetails.g.cs
 C:\Users\Adam\Desktop\Studia\Nowy folder\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorHistoryOfVisitsDetails.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorHistoryOfVisits.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorHistoryOfVisitsDetails.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorSearchVisits.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorVisits.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorHistoryOfVisits.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorHistoryOfVisitsDetails.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorSearchVisits.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorVisits.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendarEmpty.baml
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendarEmpty.g.cs

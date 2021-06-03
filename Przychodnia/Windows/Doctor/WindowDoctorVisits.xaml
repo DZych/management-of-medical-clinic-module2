@@ -38,7 +38,7 @@
                     <materialDesign:DataGridTextColumn Header="Name" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
                     <materialDesign:DataGridTextColumn Header="Surname" Binding="{Binding EmployeeId}" Width="2*" IsReadOnly="True"/>
                     <materialDesign:DataGridTextColumn Header="PESEL" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Status" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                    
 
                 </DataGrid.Columns>
 
@@ -56,7 +56,7 @@
                     <materialDesign:DataGridTextColumn Header="Name" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
                     <materialDesign:DataGridTextColumn Header="Surname" Binding="{Binding EmployeeId}" Width="2*" IsReadOnly="True"/>
                     <materialDesign:DataGridTextColumn Header="PESEL" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Status" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                    
 
                 </DataGrid.Columns>
 

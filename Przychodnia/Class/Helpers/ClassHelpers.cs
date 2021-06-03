@@ -111,5 +111,16 @@ namespace Przychodnia.Class.Login
             return modifiedText;
         }
 
+        public static List<TimeSpan> GenerateListOfHours(TimeSpan start, TimeSpan stop)
+        {
+            List<TimeSpan> Times = new List<TimeSpan>();
+
+            for (var i = start; i <= stop; i = i + new TimeSpan(0, 15, 0))
+            {
+                Times.Add(i);
+            }
+
+            return Times;
+        }
     }
 }

@@ -81,7 +81,15 @@ namespace Przychodnia.Class.Calendar
         {
             get
             {
-                return new DateTime(Calendar.Year, Calendar.Month, Day).ToShortDateString();
+                return new DateTime(Calendar.Year, Calendar.Month, Day).ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
+            }
+        }
+
+        public DateTime DateInDateTime
+        {
+            get
+            {
+                return new DateTime(Calendar.Year, Calendar.Month, Day);
             }
         }
 
