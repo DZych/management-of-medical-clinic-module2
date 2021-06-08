@@ -13,6 +13,9 @@ namespace Przychodnia.Class.Calendar
         private TimeSpan startTime ;
         private string topic;
         private string description;
+        private string patientName;
+        private string patientSurname;
+        private string nrPesel;
 
 
 
@@ -39,6 +42,8 @@ namespace Przychodnia.Class.Calendar
             set { term = value; }
         }
 
+     
+
         public int TermID 
         { get => termID; set => termID = value; }
         public int PacientID 
@@ -47,6 +52,12 @@ namespace Przychodnia.Class.Calendar
         { get => topic; set => topic = value; }
         public string Description 
         { get => description; set => description = value; }
+        public string PatientName
+        { get => patientName; set => patientName = value; }
+        public string PatientSurname
+        { get => patientSurname; set => patientSurname = value; }
+        public string NrPesel
+        { get => nrPesel; set => nrPesel = value; }
         #endregion
     }
 }
