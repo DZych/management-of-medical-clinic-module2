@@ -26,13 +26,12 @@
             </Grid.ColumnDefinitions>
             <DataGrid x:Name="HistoryOfVisits" Width="800" Height="650" AutoGenerateColumns="False" Margin="0,78,0,0" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" >
                 <DataGrid.Columns>
-                        <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="ID" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="Name" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="Surname" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="PESEL" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="Status" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Doctor" Binding="{Binding EmployeeId}" Width="*" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="ID" Binding="{Binding AppointmendtId}" Width="*" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding DateDataGrid}" Width="*" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Name" Binding="{Binding PatientNameDataGrid}" Width="*" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Surname" Binding="{Binding PatientSurnameDataGrid}" Width="*" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="PESEL" Binding="{Binding PatientPESELDataGrid}" Width="*" IsReadOnly="True"/>
+                        <materialDesign:DataGridTextColumn Header="Doctor" Binding="{Binding DoctorDataGrid}" Width="*" IsReadOnly="True"/>
 
                     </DataGrid.Columns>
 

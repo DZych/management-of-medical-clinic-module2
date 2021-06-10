@@ -34,9 +34,9 @@
             <DataGrid x:Name="Visits" Height="600" Width="450" AutoGenerateColumns="False" Margin="0,20,0,0" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" SelectionChanged="Vistis_SelectionChanged" >
                 <DataGrid.Columns>
                     <materialDesign:DataGridTextColumn Header="Time" Binding="{Binding StartTime}" Width="*" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Name" Binding="{Binding PatientName}" Width="*" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Surname" Binding="{Binding PatientSurname}" Width="*" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="PESEL" Binding="{Binding NrPesel}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Name" Binding="{Binding PatientNameDataGrid}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Surname" Binding="{Binding PatientSurnameDataGrid}" Width="*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="PESEL" Binding="{Binding PatientPESELDataGrid}" Width="150" IsReadOnly="True"/>
                     
 
                 </DataGrid.Columns>
@@ -50,9 +50,9 @@
             </materialDesign:ColorZone>
             <DataGrid x:Name="HistoryofPacient" Height="600" Width="450" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" SelectionChanged="HistoryofPacient_SelectionChanged" >
                 <DataGrid.Columns>
-                    <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding DateString}" Width="120" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Doctor" Binding="{Binding Doctor}" Width="2*" IsReadOnly="True"/>
-                    <materialDesign:DataGridTextColumn Header="Topic" Binding="{Binding Topic}" Width="2*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding DateDataGrid}" Width="120" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Doctor" Binding="{Binding DoctorDataGrid}" Width="2*" IsReadOnly="True"/>
+                    <materialDesign:DataGridTextColumn Header="Topic" Binding="{Binding Topic}" Width="200" IsReadOnly="True"/>
 
 
 
@@ -80,7 +80,7 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <TextBlock Margin="0,11,40,0" Text="Surname:" Grid.Column="0" HorizontalAlignment="Right"/>
-                <TextBlock x:Name="SurnamePatient" Text="Kowalski" Grid.Column="1" Margin="0,11,40,0" HorizontalAlignment="Left"/>
+                <TextBlock x:Name="SurnamePatient" Text="" Grid.Column="1" Margin="0,11,40,0" HorizontalAlignment="Left"/>
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
@@ -88,7 +88,7 @@
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
                 <TextBlock Margin="0,11,40,0" Text="PESEL:" Grid.Column="0" HorizontalAlignment="Right"/>
-                <TextBlock x:Name="PESELpatient" Text="975054864138" Grid.Column="1"  Margin="0,11,40,0" HorizontalAlignment="Left"/>
+                <TextBlock x:Name="PESELpatient" Text="" Grid.Column="1"  Margin="0,11,40,0" HorizontalAlignment="Left"/>
             </Grid>
             
             <Grid>

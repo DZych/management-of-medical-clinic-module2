@@ -43,20 +43,33 @@
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="135"></ColumnDefinition>
-                    <ColumnDefinition Width="*"></ColumnDefinition>
+                    <ColumnDefinition Width="4*"></ColumnDefinition>
+                    <ColumnDefinition Width="69*"/>
                 </Grid.ColumnDefinitions>
                 <TextBlock Margin="0,11,40,0" Text="Phone :" Grid.Column="0" HorizontalAlignment="Right"/>
-                <TextBlock Name="DetailsPhone" Text="16546546954" Grid.Column="1" Margin="0,11,40,0" HorizontalAlignment="Left"/>
+                <TextBlock Name="DetailsPhone" Text="16546546954" Grid.Column="1" Margin="0,11,0,0" HorizontalAlignment="Left" Grid.ColumnSpan="2"/>
 
 
             </Grid>
             <Grid>
                 <Grid.ColumnDefinitions>
                     <ColumnDefinition Width="135"></ColumnDefinition>
+                    <ColumnDefinition Width="4*"></ColumnDefinition>
+                    <ColumnDefinition Width="69*"/>
+                </Grid.ColumnDefinitions>
+                <TextBlock Margin="0,11,40,0" Text="Topic :" Grid.Column="0" HorizontalAlignment="Right"/>
+                <TextBlock Name="DetailsTopic" Text="16546546954" Grid.Column="1" Margin="0,11,0,0" HorizontalAlignment="Left" Grid.ColumnSpan="2"/>
+
+
+            </Grid>
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="25"></ColumnDefinition>
+                    <ColumnDefinition Width="110"/>
                     <ColumnDefinition Width="*"></ColumnDefinition>
                 </Grid.ColumnDefinitions>
-                <TextBlock Margin="0,11,40,0" Text="Description:" Grid.Column="0" HorizontalAlignment="Right"/>
-                <TextBox x:Name="DetailsResultOfVisit" Text="" Grid.Column="1" HorizontalAlignment="Left" MaxLength="1000" Height="200"  Width="300" TextWrapping="Wrap"  Cursor="IBeam" AcceptsReturn="True" IsReadOnly="True"  FontSize="13" />
+                <TextBlock Margin="0,11,40,0" Text="Description:" Grid.Column="1" HorizontalAlignment="Right"/>
+                <TextBox x:Name="DetailsResultOfVisit" Text="" Grid.Column="2" HorizontalAlignment="Left" MaxLength="1000" Height="200"  Width="300" TextWrapping="Wrap"  Cursor="IBeam" AcceptsReturn="True" IsReadOnly="True"  FontSize="13" VerticalAlignment="Top" />
 
             </Grid>
             <Grid>
@@ -65,7 +78,7 @@
                 </Grid.ColumnDefinitions>
                 <Button Name="CloseDetailsButton" Width="300" Height="50" Margin="50" Content="Close" FontSize ="16" Foreground="GhostWhite" Cursor="Hand" Click="CloseDetailsButton_Click"   />
             </Grid>
-            
+
 
         </StackPanel>
 

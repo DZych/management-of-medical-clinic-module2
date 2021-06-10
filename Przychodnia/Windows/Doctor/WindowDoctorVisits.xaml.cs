@@ -31,7 +31,7 @@ namespace Przychodnia.Windows.Doctor
                 DateVisitComboBox.ItemsSource = ClassSqlAppointment.AppointmentsDateForCombobox();
 
                 DateVisitComboBox.SelectedIndex = DateVisitComboBox.Items.Count - 1;
-                
+
             }
             catch (Exception ex)
             {
@@ -42,6 +42,12 @@ namespace Przychodnia.Windows.Doctor
 
         }
 
+        ClassAppointment lastSelectedAppointmentHistoryVistis = null;
+        ClassAppointment lastSelectedAppointmentVisits = null;
+
+        int lastSelectedIndexHistoryVistis = -1;
+        int lastSelectedIndexVisits = -1;
+
         private void ChangeData_Click(object sender, RoutedEventArgs e)
         {
             ResultOfVisit.IsReadOnly = true;
@@ -49,16 +55,20 @@ namespace Przychodnia.Windows.Doctor
             if ((bool)ChangeData.IsChecked)
             {
                 ResultOfVisit.IsReadOnly = false;
-                ConfirmResult.Visibility =Visibility.Visible;
+                ConfirmResult.Visibility = Visibility.Visible;
                 TopicResult.IsReadOnly = false;
-                
+
             }
 
         }
 
         private void ConfirmResult_Click(object sender, RoutedEventArgs e)
         {
-
+            if(lastSelectedAppointmentHistoryVistis != null)
+            {
+                ClassSqlAppointment.UpdateAppointment(lastSelectedAppointmentHistoryVistis.AppointmendtId, ResultOfVisit.Text, TopicResult.Text);
+                Refresh();
+            }
         }
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -68,8 +78,11 @@ namespace Przychodnia.Windows.Doctor
 
         private void Vistis_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if(Visits.SelectedItem != null)
+            if (Visits.SelectedItem != null)
             {
+                lastSelectedAppointmentVisits = (ClassAppointment)Visits.SelectedItem;
+                lastSelectedIndexVisits = Visits.SelectedIndex;
+
                 HistoryofPacient.ItemsSource = null;
                 HistoryofPacient.ItemsSource = ClassSqlAppointment.GetAllApoitmentsForPatien((ClassAppointment)Visits.SelectedItem);
             }
@@ -77,25 +90,28 @@ namespace Przychodnia.Windows.Doctor
 
         private void HistoryofPacient_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-
-           
-
-            if (HistoryofPacient.SelectedItem != null && Visits.SelectedItem != null) 
+            if (HistoryofPacient.SelectedItem != null && Visits.SelectedItem != null)
             {
-                    ClassAppointment historyAppointment = (ClassAppointment)HistoryofPacient.SelectedItem;
-                    ClassAppointment appointment = (ClassAppointment)Visits.SelectedItem;
-                    NamePatient.Text = appointment.PatientName;
-                    SurnamePatient.Text = appointment.PatientSurname;
-                    PESELpatient.Text = appointment.NrPesel;
-                    TopicResult.Text = historyAppointment.Topic;
-                    ResultOfVisit.Text = historyAppointment.Add_description;
+                ClassAppointment historyAppointment = (ClassAppointment)HistoryofPacient.SelectedItem;
+                ClassAppointment appointment = (ClassAppointment)Visits.SelectedItem;
+                NamePatient.Text = appointment.Patient.Name;
+                SurnamePatient.Text = appointment.Patient.Surname;
+                PESELpatient.Text = appointment.Patient.PersonalIdentityNumber;
+                TopicResult.Text = historyAppointment.Topic;
+                ResultOfVisit.Text = historyAppointment.Description;
 
-
-
+                lastSelectedAppointmentHistoryVistis = (ClassAppointment)HistoryofPacient.SelectedItem;
+                lastSelectedIndexHistoryVistis = HistoryofPacient.SelectedIndex;
             }
+        }
 
+        private void Refresh()
+        {
+            Visits.ItemsSource = ClassSqlAppointment.AppointmentsForDataGrid(((ClassTerm)DateVisitComboBox.SelectedItem).Date);
+            HistoryofPacient.ItemsSource = ClassSqlAppointment.GetAllApoitmentsForPatien(lastSelectedAppointmentHistoryVistis);
 
-
+            Visits.SelectedIndex = lastSelectedIndexVisits;
+            HistoryofPacient.SelectedIndex = lastSelectedIndexHistoryVistis;
         }
     }
 }

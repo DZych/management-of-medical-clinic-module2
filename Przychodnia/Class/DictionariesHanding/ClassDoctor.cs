@@ -60,8 +60,8 @@ namespace Przychodnia.Class.DictionariesHanding
             get => typeOfSpecialization;
             set => typeOfSpecialization = value;
         }
+        private ClassEmployee employee;
         public ClassEmployee Employee { get => employee; set => employee = value; }
 
-        private ClassEmployee employee;
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Przychodnia.Class.Calendar;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -20,22 +21,33 @@ namespace Przychodnia.Windows.Doctor
     {
         public WindowDoctorHistoryOfVisits()
         {
-
-
-
             InitializeComponent();
+            HistoryOfVisits.ItemsSource = ClassSqlAppointment.GetAllAppoitments();
+            HistoryOfVisits.SelectedIndex = 0;
         }
 
         private void SearchVisitsHistory_Click(object sender, RoutedEventArgs e)
         {
-            WindowDoctorSearchVisits searchVisits = new WindowDoctorSearchVisits();
-            searchVisits.ShowDialog();
+                WindowDoctorSearchVisits searchVisits = new WindowDoctorSearchVisits();
+                searchVisits.ShowDialog();
+
         }
 
         private void ShowDetails_Click(object sender, RoutedEventArgs e)
         {
-            WindowDoctorHistoryOfVisitsDetails windowDoctorHistoryOfVisitsDetails = new WindowDoctorHistoryOfVisitsDetails();
-            windowDoctorHistoryOfVisitsDetails.ShowDialog();
+            if (HistoryOfVisits.SelectedItem != null)
+            {
+                ClassAppointment appointment = (ClassAppointment)HistoryOfVisits.SelectedItem;
+
+                WindowDoctorHistoryOfVisitsDetails windowDoctorHistoryOfVisitsDetails = new WindowDoctorHistoryOfVisitsDetails(appointment.Patient.Name, appointment.Patient.Surname, appointment.Patient.PersonalIdentityNumber, appointment.Patient.PhoneNumber, appointment.Topic, appointment.Description);
+
+                windowDoctorHistoryOfVisitsDetails.Show();
+            }
+            else
+            {
+                MessageBox.Show("You must choose an appointment");
+            }
+
         }
     }
 }

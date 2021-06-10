@@ -21,11 +21,23 @@ namespace Przychodnia.Windows.Doctor
         public WindowDoctorHistoryOfVisitsDetails()
         {
             InitializeComponent();
+            
+        }
+
+        public WindowDoctorHistoryOfVisitsDetails(string name, string surname, string PESEL, string phone, string topic, string description)
+        {
+            InitializeComponent();
+            DetailsName.Text = name;
+            DetailsSurname.Text = surname;
+            DetailsPesel.Text = PESEL;
+            DetailsPhone.Text = phone;
+            DetailsTopic.Text = topic;
+            DetailsResultOfVisit.Text = description;
         }
 
         private void CloseDetailsButton_Click(object sender, RoutedEventArgs e)
         {
-
+            this.Close();
         }
     }
 }
