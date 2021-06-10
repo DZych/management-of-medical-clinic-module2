@@ -262,9 +262,9 @@ namespace Przychodnia.Class.Calendar
             return TermList;
         }
 
-        public static int GetDayIdForCalendarDate(int calendarYear, int calendarMonth, int dayOfMonth)
+        public static int GetDayIdForCalendarDate(int calendarId, int dayOfMonth)
         {
-            string querry = "SELECT dbo.tbl_Calendar_Day.Calendar_day_id FROM dbo.tbl_Calendar_Day, dbo.tbl_Calendar WHERE dbo.tbl_Calendar.Year = " + calendarYear +" AND dbo.tbl_Calendar.Month = " + calendarMonth + " AND dbo.tbl_Calendar_Day.Day = " + dayOfMonth;
+            string querry = "SELECT dbo.tbl_Calendar_Day.Calendar_day_id FROM [dbo].[tbl_Calendar_Day], [dbo].[tbl_Calendar] WHERE [dbo].[tbl_Calendar_Day].Calendar_id = [dbo].[tbl_Calendar].Calendar_id AND [dbo].[tbl_Calendar_Day].Calendar_id = " + calendarId + " AND [dbo].[tbl_Calendar_Day].Day = " + dayOfMonth;
             SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
             int dayId = 0;
             while (dr.Read())
@@ -464,9 +464,9 @@ namespace Przychodnia.Class.Calendar
         #endregion
 
         #region Update
-        public static void UpdateTerm(int CalendarDoctorId, int CalendarDayId, int TermId)
+        public static void UpdateTerm(int CalendarDayId, string date, int TermId)
         {
-            string querry = "Use [db_Clinic] UPDATE [dbo].[tbl_Term] SET Calendar_doctor_id="+CalendarDoctorId+", Calendar_day_id="+CalendarDayId+" WHERE Term_id = "+TermId;
+            string querry = "Use [db_Clinic] UPDATE [dbo].[tbl_Term] SET Calendar_day_id="+CalendarDayId+", Date = N'"+ date +"' WHERE Term_id = "+TermId;
             SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
             ClassQuerry.CloseConnection();
         }
@@ -526,7 +526,9 @@ namespace Przychodnia.Class.Calendar
         #region Delete
         public static void DeleteTerm(int TermId)
         {
-            string querry = "Use [db_Clinic] DELETE [dbo].[tbl_Term] WHERE Term_id = "+TermId;
+            string querry = "Use [db_Clinic] DELETE FROM [dbo].[tbl_Appointment] WHERE Term_id = " + TermId + ";" +
+            "Use [db_Clinic] DELETE FROM [dbo].[tbl_Term] WHERE Term_id = " + TermId + ";";
+                
             SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
             ClassQuerry.CloseConnection();
         }

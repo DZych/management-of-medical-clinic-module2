@@ -16,6 +16,7 @@ UseLayoutRounding="True"
 FontFamily="{materialDesign:MaterialDesignFont}"
         Loaded="Window_Loaded"
 Title="Appointment Data" Height="332" Width="400">
+    
     <Grid>
         <StackPanel>
             <materialDesign:ColorZone Mode="PrimaryMid" Padding="20" materialDesign:ShadowAssist.ShadowDepth="Depth3">

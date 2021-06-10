@@ -29,6 +29,7 @@ namespace Przychodnia.Windows.Doctor
 
             List<ClassTerm> ListOfTerms = ClassSqlCalendar.GetListOfWorkingDayInCurrentMonth(ClassLoggedDoctor.Doctor_Id);
             CurrentMonthDataGrid.ItemsSource = ListOfTerms;
+            CurrentMonthDataGrid.SelectedIndex = 0;
         }
 
         #region Variables
@@ -40,12 +41,17 @@ namespace Przychodnia.Windows.Doctor
         private void ButtonAdd_Click(object sender, RoutedEventArgs e)
         {
             WindowDoctorEditCalendarAdd windowDoctorEditCalendarAdd = new WindowDoctorEditCalendarAdd();
-            windowDoctorEditCalendarAdd.ShowDialog();
+            var dialogResult = windowDoctorEditCalendarAdd.ShowDialog();
+            if (windowDoctorEditCalendarAdd.DialogResult == true)
+            {
+                ListOfTerms = ClassSqlCalendar.GetListOfWorkingDayInCurrentMonth(ClassLoggedDoctor.Doctor_Id);
+                RefreshDataGrid();
+            }
         }
 
         private void workingDayFrom_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            if(workingDayFrom.SelectedItem != null)
+            if (workingDayFrom.SelectedItem != null)
             {
                 lastSelectedTerm.StartTime = (TimeSpan)workingDayFrom.SelectedItem;
                 ListOfTerms.RemoveAt(CurrentMonthDataGrid.SelectedIndex);
@@ -55,16 +61,16 @@ namespace Przychodnia.Windows.Doctor
 
                 if (workingDayFrom.SelectedIndex == workingDayFrom.Items.Count - 1)
                 {
-                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex], lastSelectedTerm.EndTime + new TimeSpan(0, 15, 0));
+                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex], ListOfOriginalDays()[lastSelectedIndex].EndTime);
                 }
                 else
                 {
-                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], lastSelectedTerm.EndTime);
+                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], ListOfOriginalDays()[lastSelectedIndex].EndTime);
                 }
 
                 if ((TimeSpan)workingDayFrom.SelectedItem > lastSelectedTerm.EndTime)
                 {
-                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], ClassHelpers.GenerateListOfHours(new TimeSpan(7, 15, 0), new TimeSpan(20, 00, 0))[lastSelectedIndex]);
+                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], ListOfOriginalDays()[lastSelectedIndex].EndTime);
                     workingDayTo.SelectedIndex = 0;
                 }
             }
@@ -97,6 +103,7 @@ namespace Przychodnia.Windows.Doctor
 
             RefreshDataGrid();
 
+
             workingDayFrom.ItemsSource = null;
             workingDayTo.ItemsSource = null;
         }
@@ -109,26 +116,40 @@ namespace Przychodnia.Windows.Doctor
             ClassTerm term = (ClassTerm)CurrentMonthDataGrid.SelectedItem;
             RefreshLastSelectedItems(term);
 
-            term.IsWorkingDay = true;
+            lastSelectedTerm.IsWorkingDay = true;
             ListOfTerms.RemoveAt(CurrentMonthDataGrid.SelectedIndex);
-            ListOfTerms.Insert(CurrentMonthDataGrid.SelectedIndex, term);
+            ListOfTerms.Insert(CurrentMonthDataGrid.SelectedIndex, lastSelectedTerm);
 
             RefreshDataGrid();
 
             workingDayFrom.ItemsSource = ClassHelpers.GenerateListOfHours(new TimeSpan(7, 0, 0), new TimeSpan(19, 45, 0));
             workingDayFrom.SelectedItem = lastSelectedTerm.StartTime;
             workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours(new TimeSpan(7, 15, 0), new TimeSpan(20, 0, 0));
-            workingDayTo.SelectedItem = lastSelectedTerm.StartTime;
+            workingDayTo.SelectedItem = lastSelectedTerm.EndTime;
         }
 
         private void CheckBoxChangeDay_Checked(object sender, RoutedEventArgs e)
         {
+            if (CurrentMonthDataGrid.SelectedItem == null)
+            {
+                MessageBox.Show("To change the date you must select the day");
+                checkBoxChangeDay.IsChecked = false;
+                return;
+            }
+            if (workingDay.IsChecked == false)
+            {
+                MessageBox.Show("You cannot change the date of a non-working day");
+                checkBoxChangeDay.IsChecked = false;
+                return;
+            }
             availableDates.IsEnabled = true;
+            availableDates.ItemsSource = ListOfAvaiableDates();
         }
 
         private void CheckBoxChange_Unchecked(object sender, RoutedEventArgs e)
         {
             availableDates.IsEnabled = false;
+            availableDates.ItemsSource = null;
         }
 
         private void CurrentMonthDataGrid_SelectionChanged(object sender, SelectionChangedEventArgs e)
@@ -160,12 +181,89 @@ namespace Przychodnia.Windows.Doctor
             lastSelectedIndex = CurrentMonthDataGrid.SelectedIndex;
         }
 
-        private void RefreshDataGrid()
+        public void RefreshDataGrid()
         {
             CurrentMonthDataGrid.ItemsSource = null;
             CurrentMonthDataGrid.ItemsSource = ListOfTerms;
             CurrentMonthDataGrid.SelectedIndex = lastSelectedIndex;
         }
 
+        public void RefreshList()
+        {
+            ListOfTerms = ClassSqlCalendar.GetListOfWorkingDayInCurrentMonth(ClassLoggedDoctor.Doctor_Id);
+        }
+
+        private List<ClassCalendarDay> ListOfOriginalDays()
+        {
+            ClassCalendar calendar = GetCalendarForCurrentDate();
+            List<ClassCalendarDay> orignalDays = ClassSqlCalendar.ListOfCalendarDays(calendar.CalendarId);
+            return orignalDays;
+        }
+
+        private ClassCalendar GetCalendarForCurrentDate()
+        {
+            //Get calendar from data base
+            IEnumerable<ClassCalendar> query =
+               from elem in ClassSqlCalendar.AlreadyCreatedCalendars()
+               where elem.Month == DateTime.Now.Month
+               select elem;
+            if (!query.Any()) throw new Exception("Unable to find selected calendar in database");
+            return query.First();
+        }
+
+        private List<ClassCalendarDay> ListOfAvaiableDates()
+        {
+            ClassCalendar calendar = GetCalendarForCurrentDate();
+            List<ClassCalendarDay> allAvailableDays = ClassSqlCalendar.ListOfCalendarDays(calendar.CalendarId);
+            List<ClassTerm> workingDays = ClassSqlCalendar.GetListOfWorkingDayInCurrentMonth(ClassLoggedDoctor.Doctor_Id);
+
+            List<ClassCalendarDay> avaiableDates = new List<ClassCalendarDay>();
+
+            foreach (ClassTerm term in workingDays)
+            {
+                foreach (ClassCalendarDay day in allAvailableDays)
+                {
+                    if (term.Date == day.DateInDateTime)
+                    {
+                        avaiableDates.Add(day);
+                    }
+                }
+            }
+
+            avaiableDates = allAvailableDays.Except(avaiableDates).ToList();
+
+            return avaiableDates;
+        }
+
+        private void availableDates_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if (availableDates.SelectedItem != null)
+            {
+                ClassTerm term = (ClassTerm)CurrentMonthDataGrid.SelectedItem;
+                RefreshLastSelectedItems(term);
+
+                ClassSqlCalendar.UpdateTerm(((ClassCalendarDay)availableDates.SelectedItem).CalendarDayId, ((ClassCalendarDay)availableDates.SelectedItem).Date, lastSelectedTerm.TermId);
+
+                CurrentMonthDataGrid.ItemsSource = ClassSqlCalendar.GetListOfWorkingDayInCurrentMonth(ClassLoggedDoctor.Doctor_Id);
+                CurrentMonthDataGrid.SelectedIndex = lastSelectedIndex;
+
+                checkBoxChangeDay.IsChecked = false;
+            }
+
+        }
+
+        private void acceptChanges_Click(object sender, RoutedEventArgs e)
+        {
+            foreach (ClassTerm term in ListOfTerms)
+            {
+                if (term.IsWorkingDay == false)
+                {
+                    ClassSqlCalendar.DeleteTerm(term.TermId);
+                }
+            }
+            RefreshList();
+            RefreshDataGrid();
+            CurrentMonthDataGrid.SelectedIndex = 0;
+        }
     }
 }

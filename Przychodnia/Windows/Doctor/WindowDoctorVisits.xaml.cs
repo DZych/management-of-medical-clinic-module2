@@ -28,7 +28,7 @@ namespace Przychodnia.Windows.Doctor
             {
                 DateVisitComboBox.ItemsSource = ClassSqlAppointment.AppointmentsDateForCombobox();
 
-                DateVisitComboBox.SelectedIndex = DateVisitComboBox.Items.Count - 1;
+                DateVisitComboBox.SelectedIndex = 0;
                 
             }
             catch (Exception ex)

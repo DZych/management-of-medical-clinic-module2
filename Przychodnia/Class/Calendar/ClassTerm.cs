@@ -147,7 +147,7 @@ namespace Przychodnia.Class.Calendar
 
         public override string ToString()
         {
-            return Date.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture);
+            return Date.ToString("dd-MM-yyyy", CultureInfo.InvariantCulture);
         }
     }
 }

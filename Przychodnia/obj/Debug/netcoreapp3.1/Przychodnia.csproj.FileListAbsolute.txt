@@ -907,7 +907,6 @@ E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.
 E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 E:\DZych\management-of-medical-clinic-module2\Przychodnia\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
-E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csprojAssemblyReference.cache
 E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\WindowAdministrator.baml
 E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctor.baml
 E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorEditCalendar.baml
@@ -1141,3 +1140,4 @@ E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.
 E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendarEmpty.g.cs
 C:\Users\Adam\Desktop\Studia\Nowy folder\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendarEmpty.baml
 C:\Users\Adam\Desktop\Studia\Nowy folder\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Windows\Doctor\WindowDoctorNewCalendarEmpty.g.cs
+E:\DZych\management-of-medical-clinic-module2\Przychodnia\obj\Debug\netcoreapp3.1\Przychodnia.csproj.AssemblyReference.cache

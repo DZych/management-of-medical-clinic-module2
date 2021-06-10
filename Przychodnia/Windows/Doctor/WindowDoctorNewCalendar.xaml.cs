@@ -228,7 +228,7 @@ namespace Przychodnia.Windows.Doctor
             {
                 if (day.IsWorkingDay == true)
                 {
-                    int dayId = ClassSqlCalendar.GetDayIdForCalendarDate(calendar.Year, calendar.Month, day.DateInDateTime.Day);
+                    int dayId = ClassSqlCalendar.GetDayIdForCalendarDate(calendar.CalendarId, day.DateInDateTime.Day);
                     
                     ClassSqlCalendar.CreateTerm(day.StartTime, day.EndTime, ClassSqlCalendar.GetCalendarIdForDoctor(ClassLoggedDoctor.Doctor_Id, calendar.CalendarId) , dayId, ClassSQLConnections.GetOfficeIdForDoctor(ClassLoggedDoctor.Doctor_Id), ClassLoggedDoctor.Doctor_Id, day.Date);
 
@@ -237,6 +237,25 @@ namespace Przychodnia.Windows.Doctor
 
             ClassSqlCalendar.UpdateCalendarStatus(ClassSqlCalendar.SelectStatusId(EnumStatus.AcceptedByTheDoctor), calendar.CalendarId);
             NavigationService.Navigate(new WindowDoctorNewCalendarEmpty());
+        }
+
+        private void copyPreviousMonth_Click(object sender, RoutedEventArgs e)
+        {
+            List<ClassTerm> previousDays = ClassSqlCalendar.GetListOfWorkingDayInCurrentMonth(ClassLoggedDoctor.Doctor_Id);
+
+            foreach(ClassTerm previousDay in previousDays)
+            {
+                var date = previousDay.Date.AddDays(28);
+                foreach(ClassCalendarDay day in days)
+                {
+                    if(day.DateInDateTime == date)
+                    {
+                            day.IsWorkingDay = true;
+                    }
+                }
+            }
+
+            RefreshDataGrid();
         }
     }
 }

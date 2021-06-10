@@ -85,12 +85,12 @@
                         <materialDesign:DataGridTextColumn Header="Day"  Binding="{Binding DayOfWeek}" IsReadOnly="True"/>
                         <materialDesign:DataGridTextColumn Header="Start" Binding="{Binding StartTimeString}" IsReadOnly="True"/>
                         <materialDesign:DataGridTextColumn Header="End" Binding="{Binding EndTimeString}" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="End" Binding="{Binding IsWorkingDay}" IsReadOnly="True" Visibility="Hidden"/>
+                        <materialDesign:DataGridTextColumn Header="IsWorkingDay" Binding="{Binding IsWorkingDay}" IsReadOnly="True" Visibility="Hidden"/>
                     </DataGrid.Columns>
                 </DataGrid>
 
                 <!--fifth row-->
-                <Button Grid.ColumnSpan="2" Grid.Row="4"  Width="300" Content="Copy previous month" FontSize="16" Foreground="GhostWhite" Margin="20" Cursor="Hand" />
+                <Button Grid.ColumnSpan="2" Grid.Row="4"  Width="300" Content="Copy previous month" FontSize="16" Foreground="GhostWhite" Margin="20" Cursor="Hand" Click="copyPreviousMonth_Click"/>
                 
             </Grid>
 

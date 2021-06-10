@@ -104,6 +104,11 @@ namespace Przychodnia.Class.Calendar
 
         private bool isWorkingDay;
         public bool IsWorkingDay { get => isWorkingDay; set => isWorkingDay = value; }
+
+        public override string ToString()
+        {
+            return Date;
+        }
         #endregion
     }
 }
