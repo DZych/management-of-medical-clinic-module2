@@ -20,6 +20,8 @@ namespace Przychodnia.Windows.Doctor
     /// </summary>
     public partial class WindowDoctorVisits : Page
     {
+
+
         public WindowDoctorVisits()
         {
             InitializeComponent();
@@ -28,14 +30,16 @@ namespace Przychodnia.Windows.Doctor
             {
                 DateVisitComboBox.ItemsSource = ClassSqlAppointment.AppointmentsDateForCombobox();
 
-                DateVisitComboBox.SelectedIndex = 0;
+                DateVisitComboBox.SelectedIndex = DateVisitComboBox.Items.Count - 1;
                 
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
-            
+            Visits.ItemsSource = null;
+            Visits.ItemsSource = ClassSqlAppointment.AppointmentsForDataGrid(((ClassTerm)DateVisitComboBox.SelectedItem).Date);
+
         }
 
         private void ChangeData_Click(object sender, RoutedEventArgs e)
@@ -59,6 +63,38 @@ namespace Przychodnia.Windows.Doctor
 
         private void ComboBox_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
+            Visits.ItemsSource = ClassSqlAppointment.AppointmentsForDataGrid(((ClassTerm)DateVisitComboBox.SelectedItem).Date);
+        }
+
+        private void Vistis_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+            if(Visits.SelectedItem != null)
+            {
+                HistoryofPacient.ItemsSource = null;
+                HistoryofPacient.ItemsSource = ClassSqlAppointment.GetAllApoitmentsForPatien((ClassAppointment)Visits.SelectedItem);
+            }
+        }
+
+        private void HistoryofPacient_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+           
+
+            if (HistoryofPacient.SelectedItem != null && Visits.SelectedItem != null) 
+            {
+                    ClassAppointment historyAppointment = (ClassAppointment)HistoryofPacient.SelectedItem;
+                    ClassAppointment appointment = (ClassAppointment)Visits.SelectedItem;
+                    NamePatient.Text = appointment.PatientName;
+                    SurnamePatient.Text = appointment.PatientSurname;
+                    PESELpatient.Text = appointment.NrPesel;
+                    TopicResult.Text = historyAppointment.Topic;
+                    ResultOfVisit.Text = historyAppointment.Add_description;
+
+
+
+            }
+
+
 
         }
     }

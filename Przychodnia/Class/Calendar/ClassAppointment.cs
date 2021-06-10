@@ -16,8 +16,14 @@ namespace Przychodnia.Class.Calendar
         private string patientName;
         private string patientSurname;
         private string nrPesel;
+        private DateTime date;
+        private string dateString;
+        private string add_description;
 
+        private string nameDoctor;
+        private string surnameDoctor;
 
+        private string doctor;
 
 
         public int AppointmendtId
@@ -58,6 +64,12 @@ namespace Przychodnia.Class.Calendar
         { get => patientSurname; set => patientSurname = value; }
         public string NrPesel
         { get => nrPesel; set => nrPesel = value; }
+        public DateTime Date { get => date; set => date = value; }
+        public string NameDoctor { get => nameDoctor; set => nameDoctor = value; }
+        public string SurnameDoctor { get => surnameDoctor; set => surnameDoctor = value; }
+        public string Doctor { get => nameDoctor + " " + surnameDoctor; set => Doctor = value; }
+        public string DateString { get => date.ToString("dd-MM-yyyy"); set => dateString = value; }
+        public string Add_description { get => add_description; set => add_description = value; }
         #endregion
     }
 }

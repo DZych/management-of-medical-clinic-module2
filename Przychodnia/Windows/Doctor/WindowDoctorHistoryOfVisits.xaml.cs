@@ -20,6 +20,9 @@ namespace Przychodnia.Windows.Doctor
     {
         public WindowDoctorHistoryOfVisits()
         {
+
+
+
             InitializeComponent();
         }
 
