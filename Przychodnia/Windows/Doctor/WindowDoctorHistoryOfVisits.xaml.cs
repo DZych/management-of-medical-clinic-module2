@@ -19,6 +19,16 @@ namespace Przychodnia.Windows.Doctor
     /// </summary>
     public partial class WindowDoctorHistoryOfVisits : Page
     {
+        public static bool byName;
+        public static string lastSearchedName;
+        public static bool bySurname;
+        public static string lastSearchedSurname;
+        public static bool byPESEL;
+        public static string lastSearchedPESEL;
+        public static DateTime dateFrom;
+        public static DateTime dateTo;
+        public static bool myVisits;
+
         public WindowDoctorHistoryOfVisits()
         {
             InitializeComponent();
@@ -28,9 +38,9 @@ namespace Przychodnia.Windows.Doctor
 
         private void SearchVisitsHistory_Click(object sender, RoutedEventArgs e)
         {
-                WindowDoctorSearchVisits searchVisits = new WindowDoctorSearchVisits();
-                searchVisits.ShowDialog();
-
+            WindowDoctorSearchVisits searchVisits = new WindowDoctorSearchVisits(ClassSqlAppointment.GetAllAppoitments());
+            searchVisits.ShowDialog();
+            HistoryOfVisits.ItemsSource = searchVisits.RefreshDataGrid();
         }
 
         private void ShowDetails_Click(object sender, RoutedEventArgs e)

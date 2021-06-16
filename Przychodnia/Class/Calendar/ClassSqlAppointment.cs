@@ -78,8 +78,15 @@ namespace Przychodnia.Class.Calendar
                 appointmentDataGrid.Doctor.Employee = new DictionariesHanding.ClassEmployee();
                 appointmentDataGrid.Doctor.Employee.Name = dr.GetString("Name");
                 appointmentDataGrid.Doctor.Employee.Surname = dr.GetString("Surname");
-                appointmentDataGrid.Description = dr.GetString("add_description");
-                
+                try
+                {
+                    appointmentDataGrid.Description = dr.GetString("add_description");
+                }
+                catch (System.Data.SqlTypes.SqlNullValueException ex)
+                {
+                    appointmentDataGrid.Description = "Brak";
+                }
+
 
                 appointment.Add(appointmentDataGrid);
             }

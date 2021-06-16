@@ -38,7 +38,12 @@ namespace Przychodnia.Windows.Doctor
                 MessageBox.Show(ex.Message);
             }
             Visits.ItemsSource = null;
-            Visits.ItemsSource = ClassSqlAppointment.AppointmentsForDataGrid(((ClassTerm)DateVisitComboBox.SelectedItem).Date);
+            if(DateVisitComboBox.Items.Count != 0)
+            {
+                Visits.ItemsSource = ClassSqlAppointment.AppointmentsForDataGrid(((ClassTerm)DateVisitComboBox.SelectedItem).Date);
+            }
+            
+            
 
         }
 
