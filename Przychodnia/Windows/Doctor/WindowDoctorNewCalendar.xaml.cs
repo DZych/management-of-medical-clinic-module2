@@ -62,6 +62,8 @@ namespace Przychodnia.Windows.Doctor
             RefreshLastSelectedItems(day);
 
             day.IsWorkingDay = true;
+           // day.StartTime = ListOfOriginalDays()[lastSelectedIndex].StartTime;
+           // day.EndTime = ListOfOriginalDays()[lastSelectedIndex].EndTime;
             days.RemoveAt(CurrentMonthDataGrid.SelectedIndex);
             days.Insert(CurrentMonthDataGrid.SelectedIndex, day);
 
@@ -69,7 +71,7 @@ namespace Przychodnia.Windows.Doctor
 
             workingDayFrom.ItemsSource = ClassHelpers.GenerateListOfHours(ListOfOriginalDays()[lastSelectedIndex].StartTime, ListOfOriginalDays()[lastSelectedIndex].EndTime - new TimeSpan(0, 15, 0));
             workingDayFrom.SelectedItem = lastSelectedDay.StartTime;
-            workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], day.EndTime);
+            workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], ListOfOriginalDays()[lastSelectedIndex].EndTime);
             workingDayTo.SelectedIndex = workingDayTo.Items.Count - 1;
         }
 
@@ -89,8 +91,8 @@ namespace Przychodnia.Windows.Doctor
             RefreshLastSelectedItems(day);
 
             day.IsWorkingDay = false;
-            day.StartTime = ListOfOriginalDays()[lastSelectedIndex].StartTime;
-            day.EndTime = ListOfOriginalDays()[lastSelectedIndex].EndTime;
+            //day.StartTime = ListOfOriginalDays()[lastSelectedIndex].StartTime;
+           // day.EndTime = ListOfOriginalDays()[lastSelectedIndex].EndTime;
             days.RemoveAt(CurrentMonthDataGrid.SelectedIndex);
             days.Insert(CurrentMonthDataGrid.SelectedIndex, day);
 
@@ -107,12 +109,18 @@ namespace Przychodnia.Windows.Doctor
             if (day == null)
             {
                 if (lastSelectedDay.IsWorkingDay == true)
+                {
                     workingDay.IsChecked = true;
+                }
+                    
                 else
                     workingDay.IsChecked = false;
             }
             else if (day.IsWorkingDay == true)
+            {
                 workingDay.IsChecked = true;
+            }
+                
             else
                 workingDay.IsChecked = false;
         }
@@ -192,7 +200,7 @@ namespace Przychodnia.Windows.Doctor
                 }
                 else
                 {
-                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], lastSelectedDay.EndTime);
+                    workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], ListOfOriginalDays()[lastSelectedIndex].EndTime);
                 }
 
                 if ((TimeSpan)workingDayFrom.SelectedItem > lastSelectedDay.EndTime)

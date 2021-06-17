@@ -470,6 +470,12 @@ namespace Przychodnia.Class.Calendar
             SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
             ClassQuerry.CloseConnection();
         }
+        public static void UpdateTerm(int TermId, TimeSpan startTime, TimeSpan endTime)
+        {
+            string querry = "Use [db_Clinic] UPDATE [dbo].[tbl_Term] SET Start_time = '"+ startTime.ToString() +"', End_time = '"+ endTime.ToString() +"' WHERE Term_id = " + TermId;
+            SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
+            ClassQuerry.CloseConnection();
+        }
         public static void UpdateCalendarStatus(int Status_id, int Calendar_id)
         {
             string querry = "USE [db_Clinic] UPDATE [dbo].[tbl_Calendar] SET [Status_id]="+Status_id+" WHERE [Calendar_id]="+Calendar_id;

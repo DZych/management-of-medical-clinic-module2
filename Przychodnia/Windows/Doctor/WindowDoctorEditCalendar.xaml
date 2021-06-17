@@ -43,7 +43,7 @@
                 </Grid.RowDefinitions>
 
                 <!--Current month-->
-                <DataGrid Name="CurrentMonthDataGrid" Grid.Column="0" Grid.Row="0" Height="600" Width="300"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" SelectionChanged="CurrentMonthDataGrid_SelectionChanged" LostFocus="CurrentMonthDataGrid_LostFocus">
+                <DataGrid Name="CurrentMonthDataGrid" Grid.Column="0" Grid.Row="0" Height="600" Width="300"   HorizontalScrollBarVisibility="Disabled" AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch" SelectionChanged="CurrentMonthDataGrid_SelectionChanged" LostFocus="CurrentMonthDataGrid_LostFocus">
                     <DataGrid.RowStyle>
                         <Style TargetType="DataGridRow" BasedOn="{StaticResource MaterialDesignDataGridRow}">
                             <Style.Triggers>
@@ -59,7 +59,7 @@
                         <materialDesign:DataGridTextColumn Header="Day" Binding="{Binding DayOfWeek}" IsReadOnly="True"/>
                         <materialDesign:DataGridTextColumn Header="Start" Binding="{Binding StartTimeString}" IsReadOnly="True"/>
                         <materialDesign:DataGridTextColumn Header="End" Binding="{Binding EndTimeString}" IsReadOnly="True"/>
-                        <materialDesign:DataGridTextColumn Header="IsWorkingDay" Binding="{Binding IsWorkingDay}" IsReadOnly="True" Visibility="Visible"/>
+                        <materialDesign:DataGridTextColumn Header="IsWorkingDay" Binding="{Binding IsWorkingDay}" IsReadOnly="True" Visibility="Hidden"/>
                     </DataGrid.Columns>
                 </DataGrid>
 

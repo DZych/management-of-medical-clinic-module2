@@ -33,6 +33,12 @@ namespace Przychodnia.Windows.Doctor
 
         private void ButtonAdd_Click(object sender, RoutedEventArgs e)
         {
+            if(workingDayFrom.SelectedItem == null || workingDayTo.SelectedItem == null || AvailableDate.SelectedItem == null)
+            {
+                MessageBox.Show("You cannot leave any empty combobox!");
+                return;
+            }
+
             ClassCalendar calendar = GetCalendarForCurrentDate();
             int dayId = ClassSqlCalendar.GetDayIdForCalendarDate(calendar.CalendarId, ((ClassCalendarDay)AvailableDate.SelectedItem).DateInDateTime.Day);
 

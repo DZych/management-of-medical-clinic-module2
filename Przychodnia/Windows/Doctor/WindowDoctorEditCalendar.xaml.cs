@@ -73,6 +73,8 @@ namespace Przychodnia.Windows.Doctor
                     workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours((TimeSpan)workingDayFrom.Items[workingDayFrom.SelectedIndex + 1], ListOfOriginalDays()[lastSelectedIndex].EndTime);
                     workingDayTo.SelectedIndex = 0;
                 }
+
+                ClassSqlCalendar.UpdateTerm(lastSelectedTerm.TermId, lastSelectedTerm.StartTime, lastSelectedTerm.EndTime);
             }
         }
 
@@ -87,6 +89,7 @@ namespace Przychodnia.Windows.Doctor
 
                 RefreshDataGrid();
             }
+            ClassSqlCalendar.UpdateTerm(lastSelectedTerm.TermId, lastSelectedTerm.StartTime, lastSelectedTerm.EndTime);
         }
 
         private void CheckBoxWorkingDay_Unchecked(object sender, RoutedEventArgs e)
@@ -159,12 +162,18 @@ namespace Przychodnia.Windows.Doctor
             if (term == null)
             {
                 if (lastSelectedTerm.IsWorkingDay == true)
+                {
                     workingDay.IsChecked = true;
+                }
+                    
                 else
                     workingDay.IsChecked = false;
             }
             else if (term.IsWorkingDay == true)
+            {
                 workingDay.IsChecked = true;
+            }
+                
             else
                 workingDay.IsChecked = false;
         }

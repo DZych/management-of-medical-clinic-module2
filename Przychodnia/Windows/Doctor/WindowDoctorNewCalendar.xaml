@@ -60,7 +60,7 @@
                 <!--fourth row-->
                 
                 <!--Previous month-->
-                <DataGrid  Name="PreviousMonthDataGrid" Grid.Column="0" Grid.Row="3" Height="450" Width="300"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Opacity="0.525">
+                <DataGrid  Name="PreviousMonthDataGrid" Grid.Column="0" HorizontalScrollBarVisibility="Hidden" Grid.Row="3" Height="450" Width="300"  AutoGenerateColumns="False" CanUserAddRows="False" CanUserDeleteRows="False" SelectionMode="Single" VerticalAlignment="Stretch" HorizontalAlignment="Stretch"  Opacity="0.525">
                     <DataGrid.Columns >
                         <materialDesign:DataGridTextColumn Header="Date" Binding="{Binding DateString}" IsReadOnly="True"/>
                         <materialDesign:DataGridTextColumn Header="Day" Binding="{Binding DayOfWeek}" IsReadOnly="True"/>
