@@ -1,154 +1,163 @@
-﻿using Przychodnia.Class.Calendar;
-using Przychodnia.Class.DictionariesHanding;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Xunit;
+using Przychodnia.Class.Calendar;
+using Przychodnia.Class.DictionariesHanding;
+
 
 namespace ClinicUnitTests.Doctor
 {
-    public class SqlCalendar
+    class SqlCalendar
     {
         public SqlCalendar()
         {
-            #region Doctor
-            ClassDoctor dct1 = new ClassDoctor();
-            dct1.Active = true;
-            dct1.Doctor_id = 1;
-            dct1.Name = "Jan";
-            dct1.Surname = "Nowak";
-            dct1.OfficeNumber = 100;
-            ClassDoctor dct2 = new ClassDoctor();
-            dct2.Active = true;
-            dct2.Doctor_id = 2;
-            dct2.Name = "Tomasz";
-            dct2.Surname = "Kowalski";
-            dct2.OfficeNumber = 200;
-            #endregion
-
-            #region Calendar Doctor
-            ClassCalendarDoctor cd1 = new ClassCalendarDoctor();
-            cd1.Calendar = new ClassCalendar();
-            cd1.Calendar.CalendarId = 2;
-            cd1.CalendarDoctorId = 1;
-            cd1.Doctor = new ClassDoctor();
-            cd1.Doctor.Doctor_id = 1;
-            cd1.Status = new ClassStatus();
-            cd1.Status.StatusId = 7;
-
-            ClassCalendarDoctor cd2 = new ClassCalendarDoctor();
-            cd2.Calendar = new ClassCalendar();
-            cd2.Calendar.CalendarId = 2;
-            cd2.CalendarDoctorId = 2;
-            cd2.Doctor = new ClassDoctor();
-            cd2.Doctor.Doctor_id = 2;
-            cd2.Status = new ClassStatus();
-            cd2.Status.StatusId = 7;
-            #endregion
-
-            #region Calendar Day
-            ClassCalendarDay d1 = new ClassCalendarDay();
-            d1.Calendar = new ClassCalendar();
-            d1.Calendar.CalendarId = 1;
-            d1.CalendarDayId = 1;
-            d1.DateInDateTime = new DateTime(2021,7,1);
-            d1.Day = 1;
-            d1.StartTime = new TimeSpan(7, 0, 0);
-            d1.EndTime = new TimeSpan(20, 0, 0);
-            ListCalendarDay.Add(d1);
-
-            ClassCalendarDay d2 = new ClassCalendarDay();
-            d2.Calendar = new ClassCalendar();
-            d2.Calendar.CalendarId = 1;
-            d2.CalendarDayId = 2;
-            d2.DateInDateTime = new DateTime(2021, 7, 2);
-            d2.Day = 2;
-            d2.StartTime = new TimeSpan(7, 0, 0);
-            d2.EndTime = new TimeSpan(20, 0, 0);
-            ListCalendarDay.Add(d1);
-
-            ClassCalendarDay d3 = new ClassCalendarDay();
-            d3.Calendar = new ClassCalendar();
-            d3.Calendar.CalendarId = 2;
-            d3.CalendarDayId = 3;
-            d1.DateInDateTime = new DateTime(2021, 7, 1);
-            d3.Day = 1;
-            d3.StartTime = new TimeSpan(7, 0, 0);
-            d3.EndTime = new TimeSpan(20, 0, 0);
-            ListCalendarDay.Add(d1);
-
-            ClassCalendarDay d4 = new ClassCalendarDay();
-            d4.Calendar = new ClassCalendar();
-            d4.Calendar.CalendarId = 2;
-            d4.CalendarDayId = 4;
-            d1.DateInDateTime = new DateTime(2021, 7, 7);
-            d4.Day = 7;
-            d4.StartTime = new TimeSpan(7, 0, 0);
-            d4.EndTime = new TimeSpan(20, 0, 0);
-            ListCalendarDay.Add(d1);
-            #endregion
-
-            #region Term
+            #region Calendar
             ClassTerm t1 = new ClassTerm();
             t1.TermId = 1;
             t1.CalendarDay = new ClassCalendarDay();
-            t1.CalendarDay = d3;
-            t1.CalendarDoctor = cd1;
-            t1.Date = new DateTime(2000, 3, 1);
-            t1.Doctor = dct1;
-            t1.StartTime = new TimeSpan(8, 0, 0);
-            t1.EndTime = new TimeSpan(12, 0, 0);
-            t1.Office = new ClassOffice();
-            t1.Office.OfficeNumber = 100;
+            t1.CalendarDoctor = new ClassCalendarDoctor();
+            t1.CalendarDoctor.CalendarDoctorId = 1;
+            t1.CalendarDay.CalendarDayId = 1;
+            t1.StartTime = new TimeSpan(12,0,0);
+            t1.EndTime = new TimeSpan(18, 0, 0);
+            t1.Date = new DateTime(2000, 3, 5);
+            t1.Doctor = new ClassDoctor();
+            t1.Doctor.Doctor_id = 1;
+            t1.IsWorkingDay = true;
+            
+            
+
             ListTerm.Add(t1);
+
 
             ClassTerm t2 = new ClassTerm();
             t2.TermId = 2;
             t2.CalendarDay = new ClassCalendarDay();
-            t2.CalendarDay = d4;
-            t2.CalendarDoctor = cd2;
-            t2.Date = new DateTime(2000, 3, 7);
-            t2.Doctor = dct2;
-            t2.StartTime = new TimeSpan(13, 0, 0);
+            t2.CalendarDay.CalendarDayId = 5;
+            t2.CalendarDoctor = new ClassCalendarDoctor();
+            t2.CalendarDoctor.CalendarDoctorId = 2;
+            t2.StartTime = new TimeSpan(8, 0, 0);
             t2.EndTime = new TimeSpan(15, 0, 0);
-            t2.Office = new ClassOffice();
-            t2.Office.OfficeNumber = 200;
+            t2.Date = new DateTime(2000, 3, 7);
+            t2.Doctor = new ClassDoctor();
+            t2.Doctor.Doctor_id=2;
+            t2.IsWorkingDay = true;
+            
             ListTerm.Add(t2);
+
+
+
+
+            ClassCalendarDoctor c1 = new ClassCalendarDoctor();
+            c1.CalendarDoctorId = 1;
+            c1.Doctor = new ClassDoctor();
+            c1.Doctor.Doctor_id = 5;
+            c1.Calendar = new ClassCalendar();
+            c1.Calendar.CalendarId = 4;
+
+            ClassCalendarDoctor c2 = new ClassCalendarDoctor();
+            c2.CalendarDoctorId = 4;
+            c2.Doctor = new ClassDoctor();
+            c2.Doctor.Doctor_id = 6;
+            c2.Calendar = new ClassCalendar();
+            c2.Calendar.CalendarId = 3;
+
+            ListCalendarForDoctor = new List<ClassCalendarDoctor>() { c1, c2 };
+
+
+
+
+
+
+
+
+
+
+
             #endregion
+
         }
 
-        private List<ClassTerm> ListTerm = new List<ClassTerm>();
-        private List<ClassCalendarDay> ListCalendarDay = new List<ClassCalendarDay>();
+        #region Variables
+        static List<ClassTerm> ListTerm = new List<ClassTerm>();
+        static List<ClassCalendarDoctor> ListCalendarForDoctor;
+        #endregion
 
-        public void UpdateTerm(int CalendarDayId, string date, int TermId)
+        public  List<ClassTerm> TestGetListOfWorkingDayInCurrentMonth2(int doctor_id)
         {
-            foreach(var item in ListTerm)
+            List<ClassTerm> ListTerm2 = new List<ClassTerm>();
+            foreach (ClassTerm t in ListTerm)
             {
-                if(item.TermId == TermId)
+                if (t.Doctor.Doctor_id == doctor_id)
                 {
-                    item.Date = DateTime.Parse(date);
-                    item.CalendarDay.CalendarDayId = CalendarDayId;
+                    ListTerm2.Add(t);
                 }
             }
+            return ListTerm2;
         }
 
-        public List<ClassTerm> TermsList()
+        public void UpdateTerm(int CalendarDayId, DateTime date, int TermId) 
+        {
+            foreach (var t in ListTerm) 
+            {
+                if (t.TermId == TermId) 
+                {
+                    t.Date = date;
+                    t.CalendarDay.CalendarDayId = CalendarDayId;
+
+                }
+            
+            }
+
+
+        }
+        public List<ClassTerm> ListOfTerms()
         {
             return ListTerm;
         }
 
-        public int GetDayIdForCalendarDate(int calendarId, int dayOfMonth)
+        public void CreateTerm(TimeSpan startTime, TimeSpan endTime, int CalendarDoctorId, int CalendarDayId, int OfficeId, int doctorID, DateTime Date) 
         {
-            foreach (var item in ListCalendarDay)
+            ClassTerm term = new ClassTerm();
+            term.StartTime = startTime;
+            term.EndTime = endTime ;
+            term.CalendarDoctor = new ClassCalendarDoctor();
+            term.CalendarDoctor.CalendarDoctorId = CalendarDoctorId;
+            term.CalendarDay = new ClassCalendarDay();
+            term.CalendarDay.CalendarDayId = CalendarDayId;
+            term.Office = new ClassOffice();
+            term.Office.OfficeId = OfficeId;
+            term.Doctor = new ClassDoctor();
+            term.Doctor.Doctor_id = doctorID;
+            term.Date = Date;
+            ListTerm.Add(term);
+
+        }
+
+        /*  public int GetDayIdForCalendarDay(int calendarId, int dayOfYear) 
+          {
+              int dayId = 0;
+
+             return 
+          }*/
+
+        public int GetCalendarIdForDoctor(int doctorId, int calendarId) 
+        {
+
+            int calendarforDoctorID = 0;
+            foreach (var c in ListCalendarForDoctor) 
             {
-                if(item.Calendar.CalendarId == calendarId && item.Day == dayOfMonth)
+                if (c.Doctor.Doctor_id == doctorId) 
                 {
-                    return item.Day;
+                    calendarforDoctorID = c.CalendarDoctorId;
                 }
             }
-            return 0;
+
+            return calendarforDoctorID;
+        
+        
         }
     }
 }
