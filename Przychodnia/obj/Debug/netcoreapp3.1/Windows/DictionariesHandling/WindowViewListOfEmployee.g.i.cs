@@ -88,8 +88,8 @@ namespace Przychodnia.Windows.DictionariesHandling {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Przychodnia;component/windows/dictionarieshandling/windowviewlistofemployee.xaml" +
-                    "", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Przychodnia;V1.0.0.0;component/windows/dictionarieshandling/windowviewlistofempl" +
+                    "oyee.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Windows\DictionariesHandling\WindowViewListOfEmployee.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

@@ -32,7 +32,7 @@ namespace Przychodnia.Class.Calendar
 
         public static List<ClassAppointment> AppointmentsForDataGrid(DateTime date)
         {
-            string querry = "SELECT dbo.tbl_Appointment.Appointment_id, [dbo].[tbl_Appointment].Start_time, [dbo].[tbl_Patient].Name, [dbo].[tbl_Patient].Surname, [dbo].[tbl_Patient].Personal_identity_number, [dbo].[tbl_Patient].Patient_id, [dbo].[tbl_Appointment].Topic  FROM [dbo].[tbl_Appointment], [dbo].[tbl_Patient] WHERE Term_id = ( SELECT tbl_Term.Term_id FROM [dbo].[tbl_Term] WHERE tbl_Term.Date = N'" + date.ToString("yyyy-MM-dd") + "' AND [dbo].[tbl_Term].Doctor_id = " + ClassLoggedDoctor.Doctor_Id + ") AND [dbo].[tbl_Appointment].Patient_id = [dbo].[tbl_Patient].Patient_id";
+            string querry = "SELECT dbo.tbl_Appointment.Appointment_id, [dbo].[tbl_Appointment].Start_time, [dbo].[tbl_Patient].Name, [dbo].[tbl_Patient].Surname, [dbo].[tbl_Patient].Personal_identity_number, [dbo].[tbl_Patient].Patient_id, [dbo].[tbl_Appointment].Topic  FROM [dbo].[tbl_Appointment], [dbo].[tbl_Patient] WHERE Term_id IN ( SELECT tbl_Term.Term_id FROM [dbo].[tbl_Term] WHERE tbl_Term.Date = N'" + date.ToString("yyyy-MM-dd") + "' AND [dbo].[tbl_Term].Doctor_id = " + ClassLoggedDoctor.Doctor_Id + ") AND [dbo].[tbl_Appointment].Patient_id = [dbo].[tbl_Patient].Patient_id";
             SqlDataReader dr = ClassQuerry.ExecuteQuerry(querry);
             List<ClassAppointment> appointment = new List<ClassAppointment>();
             while (dr.Read())

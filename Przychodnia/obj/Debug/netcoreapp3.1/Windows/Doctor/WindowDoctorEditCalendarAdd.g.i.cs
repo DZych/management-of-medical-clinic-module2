@@ -80,7 +80,7 @@ namespace Przychodnia.Windows.Doctor {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Przychodnia;component/windows/doctor/windowdoctoreditcalendaradd.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Przychodnia;V1.0.0.0;component/windows/doctor/windowdoctoreditcalendaradd.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Windows\Doctor\WindowDoctorEditCalendarAdd.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

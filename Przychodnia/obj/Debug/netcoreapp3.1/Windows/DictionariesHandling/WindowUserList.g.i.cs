@@ -104,7 +104,7 @@ namespace Przychodnia.Windows.DictionariesHandling {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Przychodnia;component/windows/dictionarieshandling/windowuserlist.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Przychodnia;V1.0.0.0;component/windows/dictionarieshandling/windowuserlist.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Windows\DictionariesHandling\WindowUserList.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

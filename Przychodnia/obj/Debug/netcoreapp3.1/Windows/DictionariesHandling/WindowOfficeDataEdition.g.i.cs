@@ -72,7 +72,8 @@ namespace Przychodnia.Windows.DictionariesHandling {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/Przychodnia;component/windows/dictionarieshandling/windowofficedataedition.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/Przychodnia;V1.0.0.0;component/windows/dictionarieshandling/windowofficedataedit" +
+                    "ion.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\Windows\DictionariesHandling\WindowOfficeDataEdition.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

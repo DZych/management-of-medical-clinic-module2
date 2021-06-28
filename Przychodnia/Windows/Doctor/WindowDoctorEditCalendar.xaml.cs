@@ -94,41 +94,49 @@ namespace Przychodnia.Windows.Doctor
 
         private void CheckBoxWorkingDay_Unchecked(object sender, RoutedEventArgs e)
         {
-            workingDayFrom.IsEnabled = false;
-            workingDayTo.IsEnabled = false;
+            if(lastSelectedTerm != null)
+            {
+                workingDayFrom.IsEnabled = false;
+                workingDayTo.IsEnabled = false;
 
-            ClassTerm term = (ClassTerm)CurrentMonthDataGrid.SelectedItem;
-            RefreshLastSelectedItems(term);
+                ClassTerm term = (ClassTerm)CurrentMonthDataGrid.SelectedItem;
+                RefreshLastSelectedItems(term);
 
-            lastSelectedTerm.IsWorkingDay = false;
-            ListOfTerms.RemoveAt(CurrentMonthDataGrid.SelectedIndex);
-            ListOfTerms.Insert(CurrentMonthDataGrid.SelectedIndex, term);
+                lastSelectedTerm.IsWorkingDay = false;
+                ListOfTerms.RemoveAt(CurrentMonthDataGrid.SelectedIndex);
+                ListOfTerms.Insert(CurrentMonthDataGrid.SelectedIndex, term);
 
-            RefreshDataGrid();
+                RefreshDataGrid();
 
 
-            workingDayFrom.ItemsSource = null;
-            workingDayTo.ItemsSource = null;
+                workingDayFrom.ItemsSource = null;
+                workingDayTo.ItemsSource = null;
+            }
+
         }
 
         private void CheckBoxWorkingDay_Checked(object sender, RoutedEventArgs e)
         {
-            workingDayFrom.IsEnabled = true;
-            workingDayTo.IsEnabled = true;
+            if(lastSelectedTerm != null)
+            {
+                workingDayFrom.IsEnabled = true;
+                workingDayTo.IsEnabled = true;
 
-            ClassTerm term = (ClassTerm)CurrentMonthDataGrid.SelectedItem;
-            RefreshLastSelectedItems(term);
+                ClassTerm term = (ClassTerm)CurrentMonthDataGrid.SelectedItem;
+                RefreshLastSelectedItems(term);
 
-            lastSelectedTerm.IsWorkingDay = true;
-            ListOfTerms.RemoveAt(CurrentMonthDataGrid.SelectedIndex);
-            ListOfTerms.Insert(CurrentMonthDataGrid.SelectedIndex, lastSelectedTerm);
+                lastSelectedTerm.IsWorkingDay = true;
+                ListOfTerms.RemoveAt(CurrentMonthDataGrid.SelectedIndex);
+                ListOfTerms.Insert(CurrentMonthDataGrid.SelectedIndex, lastSelectedTerm);
 
-            RefreshDataGrid();
+                RefreshDataGrid();
 
-            workingDayFrom.ItemsSource = ClassHelpers.GenerateListOfHours(new TimeSpan(7, 0, 0), new TimeSpan(19, 45, 0));
-            workingDayFrom.SelectedItem = lastSelectedTerm.StartTime;
-            workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours(new TimeSpan(7, 15, 0), new TimeSpan(20, 0, 0));
-            workingDayTo.SelectedItem = lastSelectedTerm.EndTime;
+                workingDayFrom.ItemsSource = ClassHelpers.GenerateListOfHours(new TimeSpan(7, 0, 0), new TimeSpan(19, 45, 0));
+                workingDayFrom.SelectedItem = lastSelectedTerm.StartTime;
+                workingDayTo.ItemsSource = ClassHelpers.GenerateListOfHours(new TimeSpan(7, 15, 0), new TimeSpan(20, 0, 0));
+                workingDayTo.SelectedItem = lastSelectedTerm.EndTime;
+            }
+           
         }
 
         private void CheckBoxChangeDay_Checked(object sender, RoutedEventArgs e)

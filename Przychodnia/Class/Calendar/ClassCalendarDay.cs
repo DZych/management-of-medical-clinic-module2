@@ -91,6 +91,10 @@ namespace Przychodnia.Class.Calendar
             {
                 return new DateTime(Calendar.Year, Calendar.Month, Day);
             }
+            set
+            {
+                this.DateInDateTime = value;
+            }
         }
 
         public string DayOfWeek

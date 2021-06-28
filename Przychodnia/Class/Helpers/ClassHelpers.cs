@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Przychodnia.Class.Login
 {
-    static class ClassHelpers
+    public static class ClassHelpers
     {
         //Check if email ii valid
         public static bool ValidateEmail(string email)
